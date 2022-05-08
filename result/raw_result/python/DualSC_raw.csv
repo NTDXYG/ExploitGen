@@ -1,0 +1,375 @@
+var0 = ''
+var1 = var0 . pop ( 'hex' )
+break
+sys . exit ( )
+break
+break
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var1 += bvar0
+var0 = b''
+perform ( y + y ) % 256
+perform ^ 221
+perform
+chunk = var0 [ : 2 ]
+var0 += 1
+var0 = 0
+count = count + 1
+count = 1
+pass
+a = 0
+"var0 = int ( hopcode , 16 )"
+ VARIABLE += '0x'
+BREAKvar = '%02x' % x
+surname = ''
+"var0 += '%02x,' % x"
+ VARIABLE += '0x'
+var0 = ''
+var1 += var0
+var1 += var0
+var1 += var0
+var1 += var0
+var1 += var0
+var1 += var0
+var1 += var0
+var1 += var0
+var1 += var0
+var1 += var0
+var1 += var0
+var1 += var0
+var1 += var0
+var1 += var0
+var1 += var0
+var1 += var0
+var0 = var1
+var0 = var2
+"var0 = 'B' % ( bytes , var3 )"
+"var3 = int ( hex ( var4 ) [ 2 : ] , var0 )"
+"def var0 ( a , s ) : "
+"def named ( n , var0 ) : "
+"def obtained ( n , rotations , width , width , width ) : "
+"def obtained ( n , rotations , width , width , width ) : "
+"elif xxx == ""\\"":"
+return not
+try:
+"var0 += '%02x,' % x"
+ encode ( var0 )
+ encode ( var0 )
+encode = ''
+encoded += var0
+"encoded += ""\\x"""
+encoded += var0
+"encoded += '%02x, ' % z"
+"encoded += '%02x,' % rand"
+"encoded += '\\x%02x' % random . randint ( 1 , masked )"
+encoded += var0
+encoded += var0
+encoded += '%02x' % ( a & var0 )
+encoded += '%02x' % ( x & var0 )
+encoded += '%02x' % ( y & var0 )
+encoded += '%02x' % x
+"encoded += '%02x,' % x"
+encoded += '%02x' % encoded
+"encoded += '%02x,' % y"
+encoded += '%02x' % y
+a += '%02x' % ( 7 - ( 256 - x ) )
+encoded += '%02x' % ( x + 7 )
+encoded += hex ( leader ) [ 2 : ]
+encoded += var0 [ 2 : ]
+encoded += hex ( xxx ) [ 2 : ]
+encoded = ''
+encoded = var0
+encoded = var0
+encoded = var0
+encoded = ''
+encoded = encoded
+"encoded = ""\\x%02x,"" % len ( bytearray ( var1 ) )"
+encoded = [ ]
+encoded += end
+var0 = '%02x' % var1
+"var2 += '%02x,' % ( z & var1 )"
+var1 += var0
+var0 = ''
+"var1 += '%02x, ' % byte"
+"var1 += '%02x, ' % new"
+"var1 += '%02x, ' % new"
+"var1 += '%02x, ' % xor"
+var1 += var0
+var1 += var0
+"var2 += '%02x,' % ( z & var1 )"
+var0 = var1
+var0 = ''
+"shellcode . append ( struct . pack ( 'B' , var0 ) )"
+"shellcode . append ( struct . pack ( 'B' , var0 ) )"
+"shellcode . add ( struct . pack ( 'B' , var0 ) )"
+"shellcode . append ( struct . pack ( 'B' , var0 ) )"
+var1 += var0
+"var0 += '%02x,' % j"
+var0 = ''
+var1 += var0
+"var0 += '%02x,' % j"
+"var2 += '%02x,' % ( y & var1 )"
+"var0 += '%02x,' % x"
+"var2 += '%02x,' % x"
+"var2 += '%02x,' % y"
+"var1 += '%02x,' % ( z - 7 )"
+"var3 += '%02x,' % ( h & var1 )"
+"var1 += '%02x,' % ( x + 7 )"
+"var1 += '%02x,' % y"
+var1 += var0
+var1 += var0
+var1 += var0
+"var2 += '0x%02x,' % var1"
+"var1 += '0x%02x,' % rand"
+var0 += hex ( leader ) [ 2 : ]
+var1 += [ 2 : ]
+var0 += hex ( xxx )
+var0 = ''
+var0 = var1
+var0 = var1
+var0 = var1
+var0 = ''
+var0 = ''
+"var0 = '0x%02x,' % len ( bytearray ( var3 ) )"
+"var1 += '%02x,' % x"
+var1 += var0
+var0 = var1
+var1 += var0
+"var0 += '%02x,' % x"
+var0 = var1
+end = var0
+except:
+var0 = bytearray ( bvar2 )
+var0 = var1 ( 128 )
+var1 += var0
+sys . exit ( 1 )
+exit ( 1 )
+exit ( 2 )
+exit ( 3 )
+"var2 = int ( hex ( leader ) [ 2 : 3 ] , 16 )"
+var0 += var2 + byte . encode ( 'hex' )
+for var0 in var1 : 
+for byte in list ( var0 ) : 
+for byte in [ 99 ] : 
+for byte in var0s : 
+for b in var0s : 
+for b in var0s : 
+for byte in var0trimmed : 
+for z in var1 ( var0 ) : 
+for i in var0 ( var1 ) : 
+for a in var0 : 
+"for i in random . sample ( range ( 1 , 256 ) : "
+"for i in range ( 0 , 2 ) : "
+"for i in range ( 0 , len ( var2 ) , 4 ) : "
+"for i in range ( 0 , 16 ) : "
+for x in var0 ( var1 ) : 
+for z in var1 ( var0 ) : 
+for x in var0 ( var1 ) : 
+for x in bytearray ( var0 ) : 
+for z in var1 ( var0 ) : 
+for x in var0 ( var1 ) : 
+for x in var2 ( var1 ) [ 2 : ] : 
+for z in var1 ( var0 ) : 
+"var1 += ""\\x"""
+var3 += var0 + var2
+var0 = var1
+var0 = var1
+h = ( y + rot ) % 256
+var0 = '%02x' % x
+var1 += 1
+var1 += 1
+i = 0
+"if ""0x0aec,"" in var1 : "
+if len ( var0 ) % even : 
+if ( r ^ var4 [ i ] != 0 ) and ( r ^ var0 ^ var4
+if char == byte : 
+if count % 2 == 0 : 
+if counter == 0 : 
+if i < len ( chunk ) : 
+if str ( byte ) == var0 : 
+if int ( byte . encode ( 'hex' ) == 0 : 
+if len ( var0 ) % 4 != 0 : 
+if len ( var0 ) < 3 : 
+if len ( sys . argv ) < 2 : 
+if len ( sys . argv ) < 2 : 
+if len ( sys . argv ) > 2 : 
+if len ( time ) > 4 : 
+if var0 is var2 : 
+if n >= 0 : 
+if var0 is not var2 : 
+if padding : 
+if rotations < 1 : 
+if x < 1 : 
+"if struct . pack ( ""B"" , var0 ^ i ) == var1 : "
+if var0 is var2 : 
+if total != 2 : 
+if x < 128 : 
+if x < 128 : 
+if x == var1 : 
+if x > '_(' : 
+if x > \/>)*?</ : 
+if var0 == 0 : 
+import module package
+import random
+import random
+import random
+import socket
+import module package
+import var0
+import module package
+import module var0
+"var0 = hex ( random . randint ( 1 , 255 ) )"
+j = i + magic % 256
+leader = var0 ( sys . argv [ 1 ] )
+return len ( bytearray ( var0 ) )
+"var0 = var1 . count ( ',' )"
+y = 13
+var0 = mask ( width )
+var0 = var1
+var0 = var1
+var0 = 8
+n &= width
+n += 1
+n = 1
+n = len ( var0 )
+s = var0 [ 1 : ]
+"var1 = str ( encoded ) . replace ( ""\\x"" , var1 )"
+var0 = int ( var1 [ 1 ] )
+new = ~ i & var0
+new = new ^ xor
+new = new << shift
+offset = 1
+var0 = [ ]
+var0 += i
+"var2 += '%02x,' % x"
+var1 += var0
+var0 = var1
+P = '\033[35m'
+padding = 0
+padding = 4 - len ( var0 ) % 4
+"r = random . randint ( 1 , 255 )"
+pass
+c = random . randint ( )
+var2 = ( x & var1 ) >> var0
+var2 = x << var0 & var1
+var0 = x ^ var1
+var0 = var0 & var2
+var0 = var0 >> var1 - var2
+var2 = x << var0 - var1
+return ( width & var1 ) >> rotations
+return n >> rotations | n << width & var0
+return 0
+return 2 ** n - 1
+return var1
+return n
+return n
+var1 = hex ( var0 )
+rot = 8
+WARNING = int ( var0 [ 0 ] )
+"n = rotations % ( rotations , width )"
+var0 = var1 | var2
+"sb = int ( hex ( leader ) [ 3 : ] , 16 )"
+var0 = var1
+var0 = var1
+"def var0s ( var1 , ) : "
+"def var0s ( var1 , ) : "
+var0 = var1
+var0 = var1
+var1 = var0 + var1
+"lock = var0 ,"
+var0 = var1
+var1 = var0 + var1
+var0 = var2
+var0 = var0 [ 2 : ]
+var0 = '%02x' % var1 . DOTALL
+var1 = var0 + var1
+var0 = var1
+"var0 = '' . join ( ""\\x{:02x}"" . format ( x ) for x in var1 )"
+"var0 = '' . join ( '0x{:02x},' . format ( x ) for x in var1 ) . rstrip ( var4 )"
+var1 += var0
+var1 += var0
+var0 += '\\val0'
+var2 += var0 [ i + 1 ] ^ var1
+var0 += var1 [ var2 ] ^ var3
+var0 += var1 [ var2 ] ^ var3
+var0 += var1 [ var2 ] ^ var3
+var0 = sys . argv [ 1 ]
+ save = len ( var0 )
+var5 = var3 ( var4 . fromhex ( f . read ( ) ) )
+"var0 = '' . join ( ""\\x{:02x}"" . format ( x ) for x in var1 )"
+var1 += var0
+hits = int ( var0 [ 0 ] )
+var0 = encoded . join ( encoded )
+var0 = var1
+var0 = var1
+var1 = var0 - sb
+var1 = 255 - var0
+separate = [ ]
+swapped . append ( var0 )
+swapped . append ( ( x ) + 1
+"swapped = '.' . join ( swapped [ i : i + 4 ] for i in range ( 0 , len ( swapped ) , 4 ) )"
+"swapped = var0 + var0 . join ( a + b for a , b in zip ( swapped [ : : 2 ] , swapped [ 1 : 2 ] ) )"
+swapped = '%02x' % len ( swapped )
+exit = program
+sys . exit ( 0 )
+httpd = sys . argv [ 99 ]
+try:
+var1 = var0 - 1
+"var0 = int ( byte . encode ( 'hex' ) , 32 ) ^ i"
+"var0 = int ( chunk [ i ] . encode ( 'hex' ) , 32 ) ^ var2"
+var0 = var2 . var3
+call the '\033[35m'
+while len ( var0 ) > 0 : 
+while x < var1 : 
+while 1 : 
+var0 = var0 ( )
+x += 1
+x += 1
+x = x
+x = 0
+"x = var0 ( x , rand )"
+x = x << 1
+x = x ^ 221
+x = x ^ rand
+y = int ( x ) - var0
+y = int ( x ) - var0
+ ^ int ( var0 [ 1 ] )
+var0 = int ( var1 [ 2 ] )
+var0 = 0
+"var0 = var0 ( chunk , d )"
+"var0 = var0 ( var1 , var2 )"
+var0 = var1
+var0 = var1
+DEBUG_setter = '%02x' % var0
+"xxx = hex ( int ( abs ( var0 ) ) + int ( var2 [ 0 : 2 ] , 16 ) )"
+y = y . encode ( y ) [ 0 ] ^ bytearray ( var1 )
+finally:
+y = x
+var3 = bytearray ( var1 ) [ 0 ] ^ bytearray ( var1 )
+y = x ^ y
+y = x ^ y
+y = x ^ 170
+y = x ^ y
+z = x % z

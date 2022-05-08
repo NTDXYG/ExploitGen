@@ -1,0 +1,305 @@
+var0 :
+var0 :
+var0 : \n jmp short var1
+var0 : \n jmp var1
+var0 : \n jmp var1
+var0 : \n jmp short var1
+var0 : \n jmp short var1
+var0 : \n jmp short var1
+var0 : \n jmp short var1
+var0 : \n jmp short var1
+var0 : \n jmp short var1
+var0 : \n jmp short var1
+add al , var0
+add al , 3
+add byte var0 , 0x0
+add byte [var1] , var0
+add var0 , 4 \n jnz decode
+add var1 , var0
+add var1 , var0
+add var0 , 2
+add var0 , 2
+call var0
+call var0
+call var0
+call var0
+var1 : \n call [esp]
+var0 :
+call var0
+var0 : \n call [esp]
+var0 : \n call [esp]
+var0 : \n call [esp]
+var0 : dw var1 , 0x2f , 0x68 , 0x69 , 0x62 , 0x87 , 0x6e , 0xb0 , 0xe3 , 0xcd , 0x0b , 0x3 , 0x80
+call var0
+call var0
+var0 : \n call [esp]
+var0 : \n call [esp]
+var0 : \n call function_1
+var0 : \n call function_1
+var0 : \n call [esp]
+var0 :
+cmp al , cl \n je short decode \n jmp short decode
+jne var0
+jb var0 \n jmp var1
+je byte [var1] , var0 \n jmp shellcode
+jne var0
+jb var0
+var0 : \n inc var1
+port :
+dec cl \n jz var0
+sub var0 , 1
+var0 :
+call var0
+var0 :
+mov var0 , esp
+add var0 , 1222
+mov var0 , esp
+mov eax , 4
+var0 : \n cmp byte [esi] , var3 \n jg var1 \n add byte [esi] , var3 \n jmp var6
+var0 : \n mov var1 , esp
+var0 : \n not byte [var1]
+var0 : \n not byte [esi]
+var0 : \n xor byte [var1] , var2
+var0 : \n jmp var1
+mov var0 ,xbd
+var0 :
+mov var0 ,digits
+mov eax , 7
+decoder :
+var0 :
+mov var0 , 42
+mov eax , 1222
+var0 : \n pop var1
+var0 : \n pop var1
+var0 : \n pop var2 \n mov var3 , var1
+var0 : \n call [esp]
+var0 : db var1 , 0x2f , 0x68 , 0x69 , 0x62 , 0x87 , 0x6e , 0xb0 , 0xe3 , 0xcd , 0x0b , 0x90 , 0x80
+var0 : db var1
+db 0x3e , 0xcd , 0x5d , 0x75 , 0x3 , 0x3 , 0xmsgvar , 0x , 0xb0 , 0xe3 , 0xcd , 0x0b , 0x90 , 0x80
+var0 : dw var1 , 0x2f , 0x68 , 0x69 , 0x62 , 0x87 , 0x6e , 0xb0 , 0xe3 , 0xcd , 0x0b , 0x90 , 0x80
+message db var0 \n jg var1 , esp
+db var0 , 0x5e , 0x5d , 0x75 , 0x3c , 0x3c , 0x6e , 0xb0 , 0xe3 , 0xcd , 0x0b , 0x90 , 0x80
+mov var0 , [esp]
+db var0 , 0x5e , 0x5d , 0x75 , 0x3c , 0x3c , 0x6e , 0xb0 , 0xe3 , 0xcd , 0x0b , 0x90 , 0x80
+db var0 , 0xf , 0x2f , 0x68 , 0x69 , 0x31 , 0x87 , 0x6e , 0xb0 , 0xe3 , 0xcd , 0x0b , 0x90 , 0x80
+mov var0 , [esp]
+var0 :
+var0 : \n jmp short var1
+var0 equ 15
+mov var0 ,jnc
+mov var1 , var0
+global var0
+global var0
+inc var0
+inc var0
+inc var0
+inc var0
+inc var0
+inc var0 \n inc var0
+inc var0
+inc var0
+inc var0 \n inc var0 \n inc var0 \n inc var0
+inc var0
+inc byte [esi+ shellcode]
+lea esi , [esi+6]
+mov var1 , [var0]
+inc var0 \n inc var0
+inc esi \n inc esi
+inc esi \n jmp short var0
+var0 :
+jmp decode
+jmp short var0
+mov var1 , var0
+jmp short var0
+jmp short cycle
+jmp short decode
+jmp short decode
+jmp var0
+� var0
+jmp short var0
+jmp short var0
+jmp short var0
+mov var0 , [esp]
+jmp short var0
+jz var0
+lea var1 , [var0]
+lea var1 , [var0]
+mov var1 , [var0]
+lea var0 , [esi]
+mov var1 , [var0]
+lea var1 , [var0]
+lea var1 , [var0]
+loop var2 \n jmp short shellcode
+jnz var0
+dec var0 \n jnz var1
+loop decrypt \n jmp encrypt
+loop decrypt \n jmp encrypt
+dec var0 \n jnz var1
+loop var0 \n jmp short shellcode
+loopja \n jmp short shellcode
+loop var2 \n jmp short shellcode
+mov eax , 1222
+mov var0 , 1222
+mov var0 , al
+mov al , [var0]
+xchg byte [var0] , al
+mov al , byte [var0]
+mov al , byte [var0]
+mov al , byte [var0]
+mov al , cl
+mov dl , 93
+mov al , dl
+mov ax , [var0]
+var0 word [var1] , ax
+mov var0 ,36
+mov var1 , byte [var0]
+mov var1 , byte [esi]
+mov var1 , var0
+mov var1 , var0
+mov var1 , byte [var0]
+mov var1 , byte [var0]
+mov var1 , byte [var0]
+mov var1 , byte [var0]
+mov var1 , byte [var0]
+mov var1 , byte [var0]
+mov var1 , [var0]
+mov var1 , byte [var0]
+mov var1 , byte [var0]
+mov var1 , byte [var0]
+mov var1 , byte [var0]
+mov cl , var0
+mov var1 , [var0]
+mov var0 , dl
+mov var0 , filecontents
+mov byte [var1] , var0 \n not byte [var1]
+mov var1 , byte [var0]
+mov var1 , byte [var0]
+mov byte [var0] , dl
+mov var1 , [var0]
+mov byte dl , dl
+mov byte [var1] , var0
+mov byte [var0] , cl
+mov byte [var0] , bh
+mov byte [var1] , var0
+mov byte [var0] , al
+mov var1 , byte [var0]
+mov [var1] , var0
+mov byte [esi] , 10
+mov cl , 13
+mov al , cl
+mov cl , byte [var0]
+mov cl , byte [var0]
+mov cl , dl
+mov dl , var0
+mov dl , byte [esi+0]
+mov dl , [esi+12]
+mov dl , var0
+mov dl , var0
+mov dl , byte [var0]
+mov var0 , dl
+mov dl , var0
+mov dl , byte [var0]
+mov dl , byte [var0]
+mov var1 , var0
+mov var1 , var0
+mov var1 , var0
+mov var0 , [esp]
+mov var0 , esp
+mov var0 , ax
+var0 : \n not dl \n inc dl
+var0 : \n jmp short var1
+mov var1 , byte [var0]
+mov eax , 64
+mov var0 , 1222
+var0 :
+pop var0
+pop var0
+pop var0
+pop var0
+pop var0 \n mov var1 , [var0]
+push shellcode
+push var0 \n mov var1 , esp
+mov eax , 4
+rol var0 , dl
+jbe cl
+inc var0 \n call [esp]
+section .text
+var0 : equ $- shellcode
+var0 : \n jmp short shellcode
+db var0 , 0x5e , 0x5d , 0x75 , 0x3c , 0x3c , 0x6e , 0xb0 , 0xe3 , 0xcd , 0x0b , 0x3 , 0x80
+var0 : dw var1 , 0x2f , 0x68 , 0x69 , 0x62 , 0x87 , 0x6e , 0xb0 , 0xe3 , 0xcd , 0x0b , 0x90 , 0x80
+mov var0 ,21
+db var0 , 0x3e , 0x5d , 0x75 , 0x3c , 0x3c , 0x6e , 0xb0 , 0xe3 , 0xcd , 0x0b , 0x3 , 0x80
+var0 : dw var1 , 0x2f , 0x68 , 0x69 , 0x62 , 0x87 , 0x6e , 0xb0 , 0xe3 , 0xcd , 0x0b , 0x90 , 0x80
+mov var0 , [esp]
+mov var0 ,act
+db var0 , 0xf , 0x2f , 0x68 , 0x69 , 0x31 , 0x87 , 0x6e , 0xb0 , 0xe3 , 0xcd , 0x0b , 0x90 , 0x80
+var0 : db var1 , 0x2f , 0x68 , 0x69 , 0x62 , 0x87 , 0x6e , 0xb0 , 0xe3 , 0xcd , 0x0b , 0x90 , 0x80
+var0 :
+ encodedshellcode var0 , var1
+shr var0 , var1
+shr ax , var0 \n not var1
+shr ax , var0 \n not word ax
+shr var0 , 4
+shr dl , 1
+shr dl , 93
+shr var0 , var0
+mov var0 , var0
+var0 : \n call [esp]
+sub ax , 13
+sub var0 , al
+sub var1 , byte [esi]
+sub byte [var0] , 8 \n not byte [var0]
+sub dl , cl
+sub dl , al \n jnz var0
+sub var0 , var0
+sub var1 , var0
+sub esp , var0
+var0 :
+jmp var0
+xchg byte [esi+ dbvar] , al
+xor var0 , al \n jz var2
+xor ax , var0
+xor ax , var0
+xor ax , var0 \n jnz var2
+xor byte [var0] , var1
+xor var0 , var2
+xor var0 , var2
+xor cl , var0 \n jz var1
+xor [var0] , var1
+xor var0 , var2 \n jnz short var0
+mov byte [var1] , var0
+mov byte [var1] , var0
+xor dl , byte [esi+1]
+xor dl , byte [var0]
+xor byte [var0] , dl
+xor dl , cl
+xor byte [var0] , var1
+xor cl , var0 \n jz short var2
+xor var0 , var0 \n jnz cl , [var0]
+xor cl , var0 \n jz var1
+xor cl , [var0]
+xor var0 , dl \n jz dl
+xor var0 , var0 \n mov al , var1
+xor var0 , var0 \n mov al , [esi+1]
+xor var0 , var0 \n jnz var1 , var1 \n xor var2 , var2
+xor var0 , var0 \n xor var1 , var1 \n xor var2 , var2 \n xor var3 , var3
+xor var0 , var0 \n xor var1 , var1 \n xor var2 , var2 \n xor var3 , var3
+xor var0 , var0 \n xor var1 , var1 \n xor var2 , var2 \n xor var3 , var3
+xor var0 , var0
+xor var0 , var0
+xor var0 , var0 \n mov cl , [esi+1]
+xor var0 , var0 \n xor var1 , var1 \n xor var2 , var2
+xor var0 , var0
+xor var0 , var0 \n mov dl , var1
+xor var0 , var0 \n mov dl , var1
+xor var0 , var0 \n mov dl , var1
+xor var0 , var0 \n mov dl , [esi+1]
+xor var0 , var0 \n mov dl , 5
+pop var0
+mov var1 , var0
+xor var1 , var1 \n mul var1
+xor ebx , ebx \n mul ebx
+xor var0 , var0 \n xor var1 , var1 \n xor var2 , var2 \n xor var3 , var3
+xor var0 , var0 \n mov bl , [esi+1]
+var0 :
